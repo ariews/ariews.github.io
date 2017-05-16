@@ -1,0 +1,43 @@
+#
+# Disallow all ROBOTS
+#
+
+User-agent: *
+Disallow: /1589,2004,03,02/
+Disallow: /author/banyubening/
+Disallow: /blog/1680.25.html
+Disallow: /blog/191/tutorialshellbox-untuk-psybnc.php
+Disallow: /blog/241/bind-part.php
+Disallow: /blog/423/membuat-permalink-otomatis-dengan-jelly.php
+Disallow: /blog/428.03.html
+Disallow: /blog/434/image-upload-api.php
+Disallow: /blog/files/
+Disallow: /blog/files/ftp.phps
+Disallow: /blog/files/wpftp.phps
+Disallow: /contact
+Disallow: /contact/
+Disallow: /drupal/
+Disallow: /feed/posts.atom
+Disallow: /jokes/
+Disallow: /pages/contact
+Disallow: /pages/gwa
+Disallow: /posts/read/110/gwa
+Disallow: /posts/read/299/err.php
+Disallow: /src/shortname.phps
+Disallow: /tag/animals.php
+Disallow: /tag/blondes.php
+Disallow: /tag/dirty-jokes.php
+Disallow: /tag/gays-amp-lesbians.php
+Disallow: /tag/gender.php
+Disallow: /tag/governenment.php
+Disallow: /tag/lebaran.php
+Disallow: /tag/little-johnny.php
+Disallow: /tag/military.php
+Disallow: /tag/other.php
+Disallow: /tag/politics.php
+Disallow: /tag/professionals.php
+Disallow: /tag/school.php
+Disallow: /tag/sci-fi-fantasy.php
+Disallow: /tag/sex.php
+Disallow: /tag/zned-framework.php
+Disallow: /v3bt/gallery.php
