@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://arie.malam.or.id/"/>
-  <updated>2017-09-26T16:33:34.919Z</updated>
+  <updated>2017-09-26T16:53:21.063Z</updated>
   <id>http://arie.malam.or.id/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="http://arie.malam.or.id/2017/09/26/pantesan-aja-gak-kelar-kelar/"/>
     <id>http://arie.malam.or.id/2017/09/26/pantesan-aja-gak-kelar-kelar/</id>
     <published>2017-09-26T16:15:12.000Z</published>
-    <updated>2017-09-26T16:33:34.919Z</updated>
+    <updated>2017-09-26T16:53:21.063Z</updated>
     
     <content type="html"><![CDATA[<p>Ya pantesan aja sih gak kelar-kelar updatenya! kek gini sih..</p>
 <p><img alt="Screenshot" src="/images/Screenshot-from-2017-09-06-16:54:21.png"></p>
 <p>Ini mengganggu sekali, kadang kalo lagi browsing gw kudu reload sekali lagi
 biar gak jadi tampilan kosong.</p>
 <p><img alt="Screenshot 2" src="/images/Screenshot-from-2017-09-26-23:26:50.png"></p>
-<p>Gak amakn keknya, bisa jadi nih gak ada yg namanya privacy kalo kek gini,
+<p>Gak aman keknya, bisa jadi nih gak ada yg namanya privacy kalo kek gini,
 dan juga.. buat apa gw beli paket internet kalo indosat masih kek gitu.</p>
 ]]></content>
     
@@ -732,7 +732,40 @@ script kita langsung verified deh.</p>
     <summary type="html">
     
       &lt;p&gt;Kemaren2 gw nemu sebuah PHP &lt;cite&gt;library&lt;/cite&gt;. Untuk lebih memahami maksud
-dan cara kerjanya, gw baca tuh codenya. Di dalamnya terdapa
+dan cara kerjanya, gw baca tuh codenya. Di dalamnya terdapat beberapa
+baris code untuk memverifikasi kepemilikan codenya (ini bukan free
+&lt;cite&gt;library&lt;/cite&gt;, kita harus beli baru dapat file-filenya.&lt;/p&gt;
+&lt;p&gt;Di bagian inialisasi, si class ini melakukan request ke server
+pembuat code disertai data email dan transaksi id pembelian sebagai
+acuan. Jadi gak mungkin kita isi dengan sembarang data.&lt;/p&gt;
+&lt;p&gt;Format URL yang diminta seperti ini:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+http://server/verify?mail=email&amp;#64;domain.tld&amp;amp;trid=ID-TRANSAKSI
+&lt;/pre&gt;
+&lt;p&gt;Sampai sini sih gak terlalu menarik. Di baris selanjutnya, hasil dari
+request tersebut diproses.&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+try {
+    $result = validate($url);
+    $data   = json_decode($result, TRUE);
+
+    if ($data[&#39;status&#39;] == &#39;valid&#39;) {
+        // ...
+    }
+} catch (Exception $exp) {
+    // ...
+}
+&lt;/pre&gt;
+&lt;p&gt;Masih normal sih, sampai gw nyoba ngirim dengan email yang ngasal
+dan transaksi id yg asal pula, hasilnya tetep aja valid.&lt;/p&gt;
+&lt;p&gt;Hasil dari request tersebut kira-kira seperti ini:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+{&amp;quot;status&amp;quot;:&amp;quot;valid&amp;quot;, ... }
+&lt;/pre&gt;
+&lt;p&gt;Ini baru menarik, karena input seperti apapun hasilnya tetep hasilnya
+&lt;cite&gt;valid&lt;/cite&gt;, &lt;cite&gt;library&lt;/cite&gt; seperti ini dengan mudah dibikin
+&lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Copyright_infringement&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NULLED&lt;/a&gt;, kita bisa &lt;cite&gt;bypass code&lt;/cite&gt; diatas, ganti aja jadi seperti
+ini:&lt;/p&gt;
     
     </summary>
     
@@ -788,7 +821,29 @@ root&#64;arie:~# ./ps_mem.py | awk '/monkey|Program/'
     
       &lt;p&gt;Beberapa hari ini, gw lagi mikirin gimana caranya supaya VPS gw, yg
 memorynya cuman 256M bisa punya memory tambahan. Selama ini gw pake
-&lt;
+&lt;a class=&quot;reference external&quot; href=&quot;http://nginx.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nginx&lt;/a&gt;, dan karena VPS gw memorynya rada terbatas, gw install dengan&lt;/p&gt;
+&lt;blockquote&gt;
+$ sudo apt-get install nginx-light&lt;/blockquote&gt;
+&lt;p&gt;Belum yakin sih, &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;nginx-light&lt;/span&gt;&lt;/tt&gt; ini nginx yg lebih ringan atau gak,
+jika dibandingin sama &lt;tt class=&quot;docutils literal&quot;&gt;nginx&lt;/tt&gt; atau bahkan &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;nginx-extra&lt;/span&gt;&lt;/tt&gt; atau
+&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;nginx-full&lt;/span&gt;&lt;/tt&gt;, gak ngerti juga. Mungkin karena lebih ringan, jadinya
+pake nama light, haha sok tau nih.&lt;/p&gt;
+&lt;p&gt;Nah, si nginx ini emang make memory kecil, jadi masih bisa lah untuk
+handle web, soalnya juga pengunjung blog ini cuman web spider aja :)&lt;/p&gt;
+&lt;p&gt;Cuman karena gw juga ada aplikasi yang jalan dibelakang (background),
+yang juga butuh &lt;a class=&quot;reference external&quot; href=&quot;http://mysql.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MySQL&lt;/a&gt; jadi mesti mikir2 lagi. MySQL udah gw setting
+pake setingan sederhana sih, cuman aktifin MyISAM aja, InnoDB udah
+gw disable, tapi teteepppp makan memory.&lt;/p&gt;
+&lt;p&gt;Juga karena web ini cuman buat serve static HTML, gw jadi mikir2
+untuk mengganti dengan yg lebih &lt;cite&gt;light&lt;/cite&gt; lagi, nyari2 di uum gugel,
+akhirnya nemuin &lt;a class=&quot;reference external&quot; href=&quot;http://monkey-project.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;monyet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Gw gak (atau belum) nemuin paket debiannya, jadi masih install
+manual.&lt;/p&gt;
+&lt;p&gt;Begitu nyala, memory yg dipake cuman 500~650KiB, gak sampe 1MiB, kalo
+nginx masih bisa sampe 1.2MiB.&lt;/p&gt;
+&lt;p&gt;Yahhh lumayan ah, tapi gw belom berani buat jadiin si monyet ini
+sebagai web server utama di web yang banyak trafficnya.&lt;/p&gt;
+&lt;p&gt;Masih ujicoba :)&lt;/p&gt;
     
     </summary>
     
