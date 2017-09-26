@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Log Channel</title>
-  
+  <subtitle>Log Channel</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://arie.malam.or.id/"/>
-  <updated>2017-05-20T10:19:29.251Z</updated>
+  <updated>2017-09-26T16:33:34.919Z</updated>
   <id>http://arie.malam.or.id/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pantesan Aja Gak Kelar-Kelar!</title>
+    <link href="http://arie.malam.or.id/2017/09/26/pantesan-aja-gak-kelar-kelar/"/>
+    <id>http://arie.malam.or.id/2017/09/26/pantesan-aja-gak-kelar-kelar/</id>
+    <published>2017-09-26T16:15:12.000Z</published>
+    <updated>2017-09-26T16:33:34.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>Ya pantesan aja sih gak kelar-kelar updatenya! kek gini sih..</p>
+<p><img alt="Screenshot" src="/images/Screenshot-from-2017-09-06-16:54:21.png"></p>
+<p>Ini mengganggu sekali, kadang kalo lagi browsing gw kudu reload sekali lagi
+biar gak jadi tampilan kosong.</p>
+<p><img alt="Screenshot 2" src="/images/Screenshot-from-2017-09-26-23:26:50.png"></p>
+<p>Gak amakn keknya, bisa jadi nih gak ada yg namanya privacy kalo kek gini,
+dan juga.. buat apa gw beli paket internet kalo indosat masih kek gitu.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      Pantesan aja gak kelar-kelar!
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Masih Berkutat Dengan reStructuredText Di Hexo</title>
@@ -251,9 +276,9 @@ $ hexo generate -d # generate dan langsung deploy
     
       <category term="Github" scheme="http://arie.malam.or.id/tags/Github/"/>
     
-      <category term="Hexo" scheme="http://arie.malam.or.id/tags/Hexo/"/>
-    
       <category term="Static HTML" scheme="http://arie.malam.or.id/tags/Static-HTML/"/>
+    
+      <category term="Hexo" scheme="http://arie.malam.or.id/tags/Hexo/"/>
     
   </entry>
   
@@ -330,9 +355,9 @@ settingan yg pas buat update permalink..</p>
     </summary>
     
     
-      <category term="Hexo" scheme="http://arie.malam.or.id/tags/Hexo/"/>
-    
       <category term="Pelican" scheme="http://arie.malam.or.id/tags/Pelican/"/>
+    
+      <category term="Hexo" scheme="http://arie.malam.or.id/tags/Hexo/"/>
     
   </entry>
   
@@ -475,11 +500,11 @@ Hello, world!
     </summary>
     
     
+      <category term="Nginx" scheme="http://arie.malam.or.id/tags/Nginx/"/>
+    
       <category term="Monkey" scheme="http://arie.malam.or.id/tags/Monkey/"/>
     
       <category term="Debian" scheme="http://arie.malam.or.id/tags/Debian/"/>
-    
-      <category term="Nginx" scheme="http://arie.malam.or.id/tags/Nginx/"/>
     
       <category term="uWSGI" scheme="http://arie.malam.or.id/tags/uWSGI/"/>
     
@@ -607,9 +632,9 @@ Server_ScriptAlias /cgi-bin/ /usr/share/monkey/cgi-bin
     </summary>
     
     
-      <category term="Monkey" scheme="http://arie.malam.or.id/tags/Monkey/"/>
-    
       <category term="Nginx" scheme="http://arie.malam.or.id/tags/Nginx/"/>
+    
+      <category term="Monkey" scheme="http://arie.malam.or.id/tags/Monkey/"/>
     
   </entry>
   
@@ -794,9 +819,9 @@ bakalan ngetrigger hook yang ditentukan.</p>
     </summary>
     
     
-      <category term="Pelican" scheme="http://arie.malam.or.id/tags/Pelican/"/>
-    
       <category term="Static HTML" scheme="http://arie.malam.or.id/tags/Static-HTML/"/>
+    
+      <category term="Pelican" scheme="http://arie.malam.or.id/tags/Pelican/"/>
     
       <category term="Git" scheme="http://arie.malam.or.id/tags/Git/"/>
     
@@ -834,9 +859,9 @@ sini, meski cuman ngeindex halaman ini aja.</p>
     </summary>
     
     
-      <category term="Pelican" scheme="http://arie.malam.or.id/tags/Pelican/"/>
-    
       <category term="Static HTML" scheme="http://arie.malam.or.id/tags/Static-HTML/"/>
+    
+      <category term="Pelican" scheme="http://arie.malam.or.id/tags/Pelican/"/>
     
   </entry>
   
@@ -986,46 +1011,6 @@ harapkan.</p>
       <category term="CKeditor" scheme="http://arie.malam.or.id/tags/CKeditor/"/>
     
       <category term="Javascript" scheme="http://arie.malam.or.id/tags/Javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pindah Server Lagi :)</title>
-    <link href="http://arie.malam.or.id/2013/03/11/pindah-server-lagi/"/>
-    <id>http://arie.malam.or.id/2013/03/11/pindah-server-lagi/</id>
-    <published>2013-03-11T09:23:00.000Z</published>
-    <updated>2017-05-20T09:20:43.415Z</updated>
-    
-    <content type="html"><![CDATA[<p>Woii udah lama neh gak ngepost.. hehe kemana aja sihh?</p>
-<p>Gak kemana-mana juga, cuman lagi persiapan buat lahiran anak kedua :)
-doain aja yaa…</p>
-<p>Btw, hostingan pindah lagi, HAH!!&nbsp;hehe iyaaa.. gw kira sekarang
-pagodabox udah cukup buat jadi bahan percobaan-percobaan :)</p>
-<p>Saat make <em>service</em>nya pagodabox, gw juga <em>signup</em>&nbsp;di
-<a class="reference external" href="http://copperegg.com" target="_blank" rel="external">CopperEgg</a>, dan setiap hari gw selalu dapat
-email dari si copperegg ini, ngasih report kalo web gw ini berjalan
-laaaaaaammmmbbattt. Sebodo amat sih, namanya juga gratisan :D</p>
-<p>Tapi lama-lama jenuh juga.. bosen kalo dapat imel yang isinya itu-itu
-juga. lambat lah, pingnya di atas 4500ms lah, kadang sampe 6000ms, ya
-akhirnya gw pindahin aja ke VPS cadangan.</p>
-<p>Hasilnya seperti berikut:</p>
-<p><img alt="image0" src="/images/513da2436a63fLogChannel_restart.jpg"></p>
-<p>ya masih gede sih.. tapi kliatan banget kan turunnya drastis :D, baru
-pindah server nehh…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      Pindah server lagi :)
-    
-    </summary>
-    
-    
-      <category term="VPS" scheme="http://arie.malam.or.id/tags/VPS/"/>
-    
-      <category term="Pindah Hosting" scheme="http://arie.malam.or.id/tags/Pindah-Hosting/"/>
-    
-      <category term="CopperEgg" scheme="http://arie.malam.or.id/tags/CopperEgg/"/>
     
   </entry>
   

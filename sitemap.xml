@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://arie.malam.or.id/2017/09/26/pantesan-aja-gak-kelar-kelar/</loc>
+    
+    <lastmod>2017-09-26T16:33:34.919Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2017/05/18/nambahin-description-ke-postingan/</loc>
     
     <lastmod>2017-05-20T10:22:47.835Z</lastmod>
@@ -23,14 +30,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2017/05/16/pelican-to-hexo/</loc>
+    <loc>http://arie.malam.or.id/2015/02/10/migrasi-ke-october-cms/</loc>
     
     <lastmod>2017-05-20T09:20:43.479Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2015/02/10/migrasi-ke-october-cms/</loc>
+    <loc>http://arie.malam.or.id/2017/05/16/pelican-to-hexo/</loc>
     
     <lastmod>2017-05-20T09:20:43.479Z</lastmod>
     
@@ -44,28 +51,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2014/12/10/monyet-lancar/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.435Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2014/12/11/back-to-nginx/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.435Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2014/12/17/kenapa-pake-vps-murah/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.435Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2014/11/12/menggunakan-monkey/</loc>
     
     <lastmod>2017-05-20T09:20:43.435Z</lastmod>
     
@@ -79,7 +65,28 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2014/11/12/menggunakan-monkey/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.435Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2014/12/10/monyet-lancar/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.435Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2014/11/13/verifikasi-yang-jelek/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.435Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2014/12/17/kenapa-pake-vps-murah/</loc>
     
     <lastmod>2017-05-20T09:20:43.435Z</lastmod>
     
@@ -100,13 +107,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2013/04/25/ganti-format-ke-markdown/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.419Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2013/04/01/module-malam-menu-updated/</loc>
     
     <lastmod>2017-05-20T09:20:43.419Z</lastmod>
@@ -114,7 +114,21 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2013/03/11/pindah-server-lagi/</loc>
+    <loc>http://arie.malam.or.id/2013/04/25/ganti-format-ke-markdown/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.419Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2013/03/13/ckeditor-wordcount-plugin/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.415Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2013/03/13/nyoba-gist/</loc>
     
     <lastmod>2017-05-20T09:20:43.415Z</lastmod>
     
@@ -128,14 +142,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2013/03/13/ckeditor-wordcount-plugin/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.415Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2013/03/13/nyoba-gist/</loc>
+    <loc>http://arie.malam.or.id/2013/03/11/pindah-server-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:43.415Z</lastmod>
     
@@ -156,6 +163,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2012/09/18/happy-programmers-day/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.403Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2012/08/18/kosong-kosong/</loc>
     
     <lastmod>2017-05-20T09:20:43.403Z</lastmod>
@@ -163,21 +177,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2012/09/17/kohana-module-malam-lorempixel/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.403Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2012/08/14/pindah-vps-lagi/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.403Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2012/09/18/happy-programmers-day/</loc>
     
     <lastmod>2017-05-20T09:20:43.403Z</lastmod>
     
@@ -198,6 +198,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2012/09/17/kohana-module-malam-lorempixel/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.403Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2012/06/13/kapan-yah/</loc>
     
     <lastmod>2017-05-20T09:20:43.395Z</lastmod>
@@ -205,14 +212,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2012/05/25/pindah-ke-vps/</loc>
+    <loc>http://arie.malam.or.id/2012/03/03/linux-user/</loc>
     
     <lastmod>2017-05-20T09:20:43.383Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2012/03/03/linux-user/</loc>
+    <loc>http://arie.malam.or.id/2012/05/25/pindah-ke-vps/</loc>
     
     <lastmod>2017-05-20T09:20:43.383Z</lastmod>
     
@@ -226,14 +233,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2010/12/03/kondisi-between-di-jelly/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2010/11/14/relation-has-one-dengan-jelly-orm/</loc>
+    <loc>http://arie.malam.or.id/2010/12/04/revisi-untuk-pembuatan-slug-dengan-jelly/</loc>
     
     <lastmod>2017-05-20T09:20:43.359Z</lastmod>
     
@@ -247,14 +247,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2010/11/23/membuat-permalink-otomatis-dengan-jelly/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2010/12/04/revisi-untuk-pembuatan-slug-dengan-jelly/</loc>
+    <loc>http://arie.malam.or.id/2010/11/14/relation-has-one-dengan-jelly-orm/</loc>
     
     <lastmod>2017-05-20T09:20:43.359Z</lastmod>
     
@@ -268,7 +261,21 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2010/11/06/blog-restart/</loc>
+    <loc>http://arie.malam.or.id/2010/11/23/membuat-permalink-otomatis-dengan-jelly/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2010/12/03/kondisi-between-di-jelly/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2010/11/11/error-404-di-kohana3/</loc>
     
     <lastmod>2017-05-20T09:20:43.355Z</lastmod>
     
@@ -289,7 +296,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2010/11/11/error-404-di-kohana3/</loc>
+    <loc>http://arie.malam.or.id/2010/11/12/jelly-orm/</loc>
     
     <lastmod>2017-05-20T09:20:43.355Z</lastmod>
     
@@ -303,23 +310,9 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2010/11/12/jelly-orm/</loc>
+    <loc>http://arie.malam.or.id/2010/11/06/blog-restart/</loc>
     
     <lastmod>2017-05-20T09:20:43.355Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2009/06/29/kohana-orm-tips-2/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.327Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2009/07/01/ke-kt-lagi/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.327Z</lastmod>
     
   </url>
   
@@ -345,6 +338,20 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2009/07/01/ke-kt-lagi/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.327Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2009/06/29/kohana-orm-tips-2/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.327Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2009/12/24/gladiatus-game-online-web-based/</loc>
     
     <lastmod>2017-05-20T09:20:43.327Z</lastmod>
@@ -352,7 +359,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2009/06/11/kohana-orm-2/</loc>
+    <loc>http://arie.malam.or.id/2009/06/25/gallery-update/</loc>
     
     <lastmod>2017-05-20T09:20:43.323Z</lastmod>
     
@@ -366,13 +373,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2009/06/25/gallery-update/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.323Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2009/06/19/kohana-orm-3/</loc>
     
     <lastmod>2017-05-20T09:20:43.323Z</lastmod>
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2009/06/09/spam-count/</loc>
+    <loc>http://arie.malam.or.id/2009/06/11/kohana-orm-2/</loc>
     
     <lastmod>2017-05-20T09:20:43.323Z</lastmod>
     
@@ -395,6 +395,13 @@
   
   <url>
     <loc>http://arie.malam.or.id/2009/06/05/kohana-id/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.323Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2009/06/09/spam-count/</loc>
     
     <lastmod>2017-05-20T09:20:43.323Z</lastmod>
     
@@ -429,20 +436,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2009/04/15/wish-you-were-here/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2009/04/14/tcl-script-buat-eggdrop/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.295Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2009/04/14/create-pdf-image/</loc>
     
     <lastmod>2017-05-20T09:20:43.295Z</lastmod>
@@ -450,7 +443,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2009/04/12/virus/</loc>
+    <loc>http://arie.malam.or.id/2009/03/19/pake-kohana/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2009/04/04/mapper/</loc>
     
     <lastmod>2017-05-20T09:20:43.295Z</lastmod>
     
@@ -464,7 +464,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2009/04/04/mapper/</loc>
+    <loc>http://arie.malam.or.id/2009/04/15/wish-you-were-here/</loc>
     
     <lastmod>2017-05-20T09:20:43.295Z</lastmod>
     
@@ -485,7 +485,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2009/03/19/pake-kohana/</loc>
+    <loc>http://arie.malam.or.id/2009/04/14/tcl-script-buat-eggdrop/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2009/04/12/virus/</loc>
     
     <lastmod>2017-05-20T09:20:43.295Z</lastmod>
     
@@ -555,14 +562,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/08/04/slaps/</loc>
+    <loc>http://arie.malam.or.id/2007/07/29/lucu/</loc>
     
     <lastmod>2017-05-20T09:20:43.211Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/07/29/lucu/</loc>
+    <loc>http://arie.malam.or.id/2007/08/04/slaps/</loc>
     
     <lastmod>2017-05-20T09:20:43.211Z</lastmod>
     
@@ -590,14 +597,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/06/17/sial/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.167Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2007/06/11/kiranatama/</loc>
+    <loc>http://arie.malam.or.id/2007/07/02/sketsa/</loc>
     
     <lastmod>2017-05-20T09:20:43.167Z</lastmod>
     
@@ -611,7 +611,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/07/02/sketsa/</loc>
+    <loc>http://arie.malam.or.id/2007/06/17/sial/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.167Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2007/06/11/kiranatama/</loc>
     
     <lastmod>2017-05-20T09:20:43.167Z</lastmod>
     
@@ -639,6 +646,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2007/04/09/domain/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.139Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2007/02/24/belajar-ruby/</loc>
     
     <lastmod>2017-05-20T09:20:43.139Z</lastmod>
@@ -653,42 +667,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/04/09/domain/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.139Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2007/01/18/kebiasaan-lama/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2007/01/19/hati/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2007/01/22/showlogin/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2007/01/10/mp3-dan-ngantuk/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2007/01/11/ntfs-3g/</loc>
+    <loc>http://arie.malam.or.id/2007/01/24/balik-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:43.127Z</lastmod>
     
@@ -702,21 +681,42 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/01/24/balik-lagi/</loc>
+    <loc>http://arie.malam.or.id/2007/01/19/hati/</loc>
     
     <lastmod>2017-05-20T09:20:43.127Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2006/10/31/31-10-2006/</loc>
+    <loc>http://arie.malam.or.id/2007/01/18/kebiasaan-lama/</loc>
     
-    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/01/02/kembalinya-devhdb1/</loc>
+    <loc>http://arie.malam.or.id/2007/01/11/ntfs-3g/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2007/01/10/mp3-dan-ngantuk/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2007/01/22/showlogin/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.127Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2007/01/08/null-null/</loc>
     
     <lastmod>2017-05-20T09:20:43.123Z</lastmod>
     
@@ -730,7 +730,35 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2007/01/08/null-null/</loc>
+    <loc>http://arie.malam.or.id/2007/01/02/kembalinya-devhdb1/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/10/31/31-10-2006/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/10/14/1-0-4/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/10/01/mirc-motfv3dll/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/09/18/namespace/</loc>
     
     <lastmod>2017-05-20T09:20:43.123Z</lastmod>
     
@@ -758,28 +786,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2006/09/18/namespace/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/10/01/mirc-motfv3dll/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/10/14/1-0-4/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.123Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/08/30/belajar-lagi/</loc>
+    <loc>http://arie.malam.or.id/2006/09/04/akhirnya/</loc>
     
     <lastmod>2017-05-20T09:20:43.119Z</lastmod>
     
@@ -793,63 +800,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2006/09/04/akhirnya/</loc>
+    <loc>http://arie.malam.or.id/2006/08/30/belajar-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:43.119Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2006/03/28/ketemu-lagi/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2006/01/15/ganti-no/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/01/16/upgrade-pear/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/01/19/whatlabel/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/03/11/pengumuman/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/11/17/telat/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/03/30/memulai-installasi-eggdrop/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2006/03/31/komentar-di-buka/</loc>
     
     <lastmod>2017-05-20T09:20:43.095Z</lastmod>
     
@@ -863,13 +821,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2006/08/25/tcl-rekursif/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2006/03/29/download-eggdrop-dari-shell/</loc>
     
     <lastmod>2017-05-20T09:20:43.095Z</lastmod>
@@ -877,7 +828,35 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/12/05/hidup/</loc>
+    <loc>http://arie.malam.or.id/2006/03/28/ketemu-lagi/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/03/11/pengumuman/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/01/19/whatlabel/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/01/16/upgrade-pear/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2006/03/30/memulai-installasi-eggdrop/</loc>
     
     <lastmod>2017-05-20T09:20:43.095Z</lastmod>
     
@@ -891,6 +870,20 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/12/05/hidup/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/11/17/telat/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/11/16/invicible-10/</loc>
     
     <lastmod>2017-05-20T09:20:43.095Z</lastmod>
@@ -898,70 +891,21 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/10/13/criminal/</loc>
+    <loc>http://arie.malam.or.id/2006/08/25/tcl-rekursif/</loc>
     
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/10/15/uh-uh/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/10/18/dari-tiongkok/</loc>
+    <loc>http://arie.malam.or.id/2006/03/31/komentar-di-buka/</loc>
     
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/10/18/liberty/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.095Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/10/18/oh-my-god/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/10/20/buset-dah/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/10/20/tags/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/10/06/kiddos/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/10/12/ketinggalan/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/10/23/mafia-boss/</loc>
+    <loc>http://arie.malam.or.id/2005/10/28/layangan-sayang/</loc>
     
     <lastmod>2017-05-20T09:20:43.091Z</lastmod>
     
@@ -982,7 +926,42 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/10/23/mafia-boss/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/10/20/tags/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/10/20/buset-dah/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/10/18/oh-my-god/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/11/13/proyek/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/10/06/kiddos/</loc>
     
     <lastmod>2017-05-20T09:20:43.091Z</lastmod>
     
@@ -996,23 +975,37 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/10/28/layangan-sayang/</loc>
+    <loc>http://arie.malam.or.id/2005/10/12/ketinggalan/</loc>
     
     <lastmod>2017-05-20T09:20:43.091Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/09/18/obscured-by-clouds/</loc>
+    <loc>http://arie.malam.or.id/2005/10/18/dari-tiongkok/</loc>
     
-    <lastmod>2017-05-20T09:20:43.087Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/09/25/shellexec/</loc>
+    <loc>http://arie.malam.or.id/2005/10/15/uh-uh/</loc>
     
-    <lastmod>2017-05-20T09:20:43.087Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/10/13/criminal/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/10/18/liberty/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.091Z</lastmod>
     
   </url>
   
@@ -1024,7 +1017,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/08/06/vlc2/</loc>
+    <loc>http://arie.malam.or.id/2005/09/18/obscured-by-clouds/</loc>
     
     <lastmod>2017-05-20T09:20:43.087Z</lastmod>
     
@@ -1052,7 +1045,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/08/09/still-dont-use/</loc>
+    <loc>http://arie.malam.or.id/2005/09/05/plugin-wpftp/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.087Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/09/25/shellexec/</loc>
     
     <lastmod>2017-05-20T09:20:43.087Z</lastmod>
     
@@ -1066,7 +1066,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/08/05/re-menu-baru/</loc>
+    <loc>http://arie.malam.or.id/2005/08/09/still-dont-use/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.087Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/08/06/vlc2/</loc>
     
     <lastmod>2017-05-20T09:20:43.087Z</lastmod>
     
@@ -1080,6 +1087,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/08/05/re-menu-baru/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.087Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/08/28/hehehe-nambah-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:43.087Z</lastmod>
@@ -1087,14 +1101,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/09/05/plugin-wpftp/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.087Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/07/17/kiat-mencegah-kanker-rahim/</loc>
+    <loc>http://arie.malam.or.id/2005/07/10/blogtk/</loc>
     
     <lastmod>2017-05-20T09:20:43.083Z</lastmod>
     
@@ -1102,6 +1109,13 @@
   
   <url>
     <loc>http://arie.malam.or.id/2005/08/04/blogshares-2749/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.083Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/08/03/vlc/</loc>
     
     <lastmod>2017-05-20T09:20:43.083Z</lastmod>
     
@@ -1136,14 +1150,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/08/03/vlc/</loc>
+    <loc>http://arie.malam.or.id/2005/07/19/2t/</loc>
     
     <lastmod>2017-05-20T09:20:43.083Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/07/19/2t/</loc>
+    <loc>http://arie.malam.or.id/2005/07/17/kiat-mencegah-kanker-rahim/</loc>
     
     <lastmod>2017-05-20T09:20:43.083Z</lastmod>
     
@@ -1157,13 +1171,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/07/11/esvn/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.083Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2005/07/10/penting/</loc>
     
     <lastmod>2017-05-20T09:20:43.083Z</lastmod>
@@ -1171,16 +1178,9 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/07/10/blogtk/</loc>
+    <loc>http://arie.malam.or.id/2005/07/11/esvn/</loc>
     
     <lastmod>2017-05-20T09:20:43.083Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/07/01/e509/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
     
   </url>
   
@@ -1192,21 +1192,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/07/02/gak-sabar/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/06/21/premium-lagi/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/06/25/16-alpha-do-not-use/</loc>
+    <loc>http://arie.malam.or.id/2005/07/09/peer-to-peer/</loc>
     
     <lastmod>2017-05-20T09:20:43.079Z</lastmod>
     
@@ -1220,7 +1206,49 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/07/04/gw-hari-ini/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/07/02/read-only/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/07/02/gak-sabar/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/07/06/update-2/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/07/01/e509/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/06/25/16-alpha-do-not-use/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/06/21/premium-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:43.079Z</lastmod>
     
@@ -1241,35 +1269,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/07/09/peer-to-peer/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/07/02/read-only/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/07/04/gw-hari-ini/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.079Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/06/21/perjalananinstall-openkiosk-di-xandros-oc-301-2/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.075Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/06/11/something-to-ponder-about/</loc>
+    <loc>http://arie.malam.or.id/2005/06/21/perjalananinstall-openkiosk-di-xandros-oc-301-1/</loc>
     
     <lastmod>2017-05-20T09:20:43.075Z</lastmod>
     
@@ -1311,6 +1311,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/06/11/something-to-ponder-about/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.075Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/06/10/php/</loc>
     
     <lastmod>2017-05-20T09:20:43.075Z</lastmod>
@@ -1332,9 +1339,16 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/06/21/perjalananinstall-openkiosk-di-xandros-oc-301-1/</loc>
+    <loc>http://arie.malam.or.id/2005/06/21/perjalananinstall-openkiosk-di-xandros-oc-301-2/</loc>
     
     <lastmod>2017-05-20T09:20:43.075Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/06/08/premium-member-horay/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.071Z</lastmod>
     
   </url>
   
@@ -1388,14 +1402,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/06/08/premium-member-horay/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.071Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/05/29/update/</loc>
+    <loc>http://arie.malam.or.id/2005/05/31/new-target/</loc>
     
     <lastmod>2017-05-20T09:20:43.067Z</lastmod>
     
@@ -1430,9 +1437,16 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/05/31/new-target/</loc>
+    <loc>http://arie.malam.or.id/2005/05/29/update/</loc>
     
     <lastmod>2017-05-20T09:20:43.067Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/05/02/gak-banyak/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.063Z</lastmod>
     
   </url>
   
@@ -1451,6 +1465,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/04/26/giginya/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.063Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/05/01/ego/</loc>
     
     <lastmod>2017-05-20T09:20:43.063Z</lastmod>
@@ -1458,28 +1479,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/05/02/duwa-giga/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.063Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/05/02/gak-banyak/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.063Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2005/04/28/dd-lynn/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.063Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/04/26/giginya/</loc>
     
     <lastmod>2017-05-20T09:20:43.063Z</lastmod>
     
@@ -1500,6 +1500,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/05/02/duwa-giga/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.063Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/04/22/blogshares-blacklist/</loc>
     
     <lastmod>2017-05-20T09:20:43.059Z</lastmod>
@@ -1507,7 +1514,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/20/boredom/</loc>
+    <loc>http://arie.malam.or.id/2005/04/22/kapal-dadan/</loc>
     
     <lastmod>2017-05-20T09:20:43.059Z</lastmod>
     
@@ -1528,7 +1535,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/19/srimulat/</loc>
+    <loc>http://arie.malam.or.id/2005/04/15/mesranyaaaa/</loc>
     
     <lastmod>2017-05-20T09:20:43.059Z</lastmod>
     
@@ -1542,23 +1549,16 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/15/mesranyaaaa/</loc>
+    <loc>http://arie.malam.or.id/2005/04/19/srimulat/</loc>
     
     <lastmod>2017-05-20T09:20:43.059Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/22/kapal-dadan/</loc>
+    <loc>http://arie.malam.or.id/2005/04/20/boredom/</loc>
     
     <lastmod>2017-05-20T09:20:43.059Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/04/15/happybirthday/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.055Z</lastmod>
     
   </url>
   
@@ -1570,7 +1570,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/09/versi-13041/</loc>
+    <loc>http://arie.malam.or.id/2005/04/10/saat-saat-yang-indah/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.055Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/04/10/stef-1/</loc>
     
     <lastmod>2017-05-20T09:20:43.055Z</lastmod>
     
@@ -1598,7 +1605,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/10/saat-saat-yang-indah/</loc>
+    <loc>http://arie.malam.or.id/2005/04/15/happybirthday/</loc>
     
     <lastmod>2017-05-20T09:20:43.055Z</lastmod>
     
@@ -1612,7 +1619,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/08/refreshing/</loc>
+    <loc>http://arie.malam.or.id/2005/04/04/delete/</loc>
     
     <lastmod>2017-05-20T09:20:43.055Z</lastmod>
     
@@ -1626,56 +1633,21 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/04/delete/</loc>
+    <loc>http://arie.malam.or.id/2005/04/08/refreshing/</loc>
     
     <lastmod>2017-05-20T09:20:43.055Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/04/10/stef-1/</loc>
+    <loc>http://arie.malam.or.id/2005/04/09/versi-13041/</loc>
     
     <lastmod>2017-05-20T09:20:43.055Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/26/itu-bukan-dia/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/26/kaget/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/26/lowongan-gawe/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/26/sapa-mabok/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/26/woro2/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/28/gak-punya-duit/</loc>
+    <loc>http://arie.malam.or.id/2005/03/31/type-op/</loc>
     
     <lastmod>2017-05-20T09:20:43.051Z</lastmod>
     
@@ -1689,28 +1661,35 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/31/type-op/</loc>
+    <loc>http://arie.malam.or.id/2005/03/26/woro2/</loc>
     
     <lastmod>2017-05-20T09:20:43.051Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/24/hehehe/</loc>
+    <loc>http://arie.malam.or.id/2005/03/26/sapa-mabok/</loc>
     
     <lastmod>2017-05-20T09:20:43.051Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/25/firefox-update/</loc>
+    <loc>http://arie.malam.or.id/2005/03/26/lowongan-gawe/</loc>
     
     <lastmod>2017-05-20T09:20:43.051Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/26/balik/</loc>
+    <loc>http://arie.malam.or.id/2005/03/26/kaget/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/26/itu-bukan-dia/</loc>
     
     <lastmod>2017-05-20T09:20:43.051Z</lastmod>
     
@@ -1724,14 +1703,35 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/18/hup-hup/</loc>
+    <loc>http://arie.malam.or.id/2005/03/26/balik/</loc>
     
-    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/24/eka-dudul/</loc>
+    <loc>http://arie.malam.or.id/2005/03/25/firefox-update/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/24/hehehe/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/28/gak-punya-duit/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.051Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/24/cocok/</loc>
     
     <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
@@ -1739,13 +1739,6 @@
   
   <url>
     <loc>http://arie.malam.or.id/2005/03/24/archie/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/24/1st-thing-apasih-archie-itu/</loc>
     
     <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
@@ -1773,35 +1766,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/15/plain-vanila/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/17/back-3/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/18/dibatasi/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/18/ufinger/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/19/china-red/</loc>
+    <loc>http://arie.malam.or.id/2005/03/19/welcome-to-wordpress/</loc>
     
     <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
@@ -1815,112 +1780,63 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/19/welcome-to-wordpress/</loc>
+    <loc>http://arie.malam.or.id/2005/03/19/china-red/</loc>
     
     <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/24/cocok/</loc>
+    <loc>http://arie.malam.or.id/2005/03/18/ufinger/</loc>
     
     <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/12/gwa-emang-taek/</loc>
+    <loc>http://arie.malam.or.id/2005/03/18/hup-hup/</loc>
     
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/15/peace/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/11/bandingkan/</loc>
+    <loc>http://arie.malam.or.id/2005/03/18/dibatasi/</loc>
     
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/11/doa/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/11/hell-spam/</loc>
+    <loc>http://arie.malam.or.id/2005/03/17/back-3/</loc>
     
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/11/mainan-anak-paling-dewasa/</loc>
+    <loc>http://arie.malam.or.id/2005/03/15/plain-vanila/</loc>
     
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/24/eka-dudul/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/24/1st-thing-apasih-archie-itu/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.047Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://arie.malam.or.id/2005/03/11/piggypinky/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/12/ambalat/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/07/install/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/12/lagi2-deface/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/12/some-list/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/13/identd/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/13/tutorialshellbox-untuk-psybnc/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/14/lukisan/</loc>
     
     <lastmod>2017-05-20T09:20:43.043Z</lastmod>
     
@@ -1934,28 +1850,98 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/02/08/ping/</loc>
+    <loc>http://arie.malam.or.id/2005/03/13/identd/</loc>
     
-    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/03/moderation-keys/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/05/gak-lagi/</loc>
+    <loc>http://arie.malam.or.id/2005/03/12/some-list/</loc>
     
-    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/05/what-a-sexy-pict/</loc>
+    <loc>http://arie.malam.or.id/2005/03/12/lagi2-deface/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/12/ambalat/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/12/gwa-emang-taek/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/13/tutorialshellbox-untuk-psybnc/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/11/mainan-anak-paling-dewasa/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/11/hell-spam/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/11/doa/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/11/bandingkan/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/07/install/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/15/peace/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/14/lukisan/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/06/pemilihan/</loc>
     
     <lastmod>2017-05-20T09:20:43.039Z</lastmod>
     
@@ -1969,42 +1955,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/06/pemilihan/</loc>
+    <loc>http://arie.malam.or.id/2005/03/05/gak-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:43.039Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/03/02/back-2/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/02/happy-birthday/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/03/aborsi/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/03/03/export-import/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/02/08/coca-cola/</loc>
+    <loc>http://arie.malam.or.id/2005/03/03/moderation-keys/</loc>
     
     <lastmod>2017-05-20T09:20:43.039Z</lastmod>
     
@@ -2018,6 +1976,20 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/03/03/export-import/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/02/happy-birthday/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/02/10/last-post/</loc>
     
     <lastmod>2017-05-20T09:20:43.039Z</lastmod>
@@ -2025,35 +1997,42 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/01/28/3-jam/</loc>
+    <loc>http://arie.malam.or.id/2005/03/02/back-2/</loc>
     
-    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/02/02/ini-beberapa-istilah-baru-dalam-komputer/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/02/03/menu-baru/</loc>
+    <loc>http://arie.malam.or.id/2005/03/03/aborsi/</loc>
     
-    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/02/05/access-denied/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/02/02/keren/</loc>
+    <loc>http://arie.malam.or.id/2005/02/08/ping/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/02/08/coca-cola/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/03/05/what-a-sexy-pict/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.039Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/02/06/jezz/</loc>
     
     <lastmod>2017-05-20T09:20:43.035Z</lastmod>
     
@@ -2067,6 +2046,20 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/02/03/menu-baru/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/02/02/keren/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/02/02/crontab-buat-psybnc/</loc>
     
     <lastmod>2017-05-20T09:20:43.035Z</lastmod>
@@ -2074,7 +2067,21 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/02/02/ini-beberapa-istilah-baru-dalam-komputer/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/02/01/avatar-buat-forum/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/28/tengah-malem/</loc>
     
     <lastmod>2017-05-20T09:20:43.035Z</lastmod>
     
@@ -2095,13 +2102,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/01/28/tengah-malem/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2005/01/28/cikaracak/</loc>
     
     <lastmod>2017-05-20T09:20:43.035Z</lastmod>
@@ -2109,77 +2109,21 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/02/06/jezz/</loc>
+    <loc>http://arie.malam.or.id/2005/02/05/access-denied/</loc>
     
     <lastmod>2017-05-20T09:20:43.035Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/01/19/kompi-yessy/</loc>
+    <loc>http://arie.malam.or.id/2005/01/28/3-jam/</loc>
     
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/26/upload-pict-2/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/24/upload-pict/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/24/robo-soldier/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/24/bluezeto/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/19/ringu-firefox/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.035Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://arie.malam.or.id/2005/01/26/smileyxtra/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/18/sapa-tau-berguna/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/16/test-2/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/16/google-di-indonesia/</loc>
     
     <lastmod>2017-05-20T09:20:43.031Z</lastmod>
     
@@ -2193,6 +2137,62 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/01/19/ringu-firefox/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/24/bluezeto/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/24/robo-soldier/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/19/kompi-yessy/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/18/sapa-tau-berguna/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/16/google-di-indonesia/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/16/test-2/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/26/upload-pict-2/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/01/14/autoslaps/</loc>
     
     <lastmod>2017-05-20T09:20:43.031Z</lastmod>
@@ -2200,14 +2200,21 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/01/13/beauty-and-sadness/</loc>
+    <loc>http://arie.malam.or.id/2005/01/24/upload-pict/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/10/bentuk-baru/</loc>
     
     <lastmod>2017-05-20T09:20:43.027Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/01/07/ps-error/</loc>
+    <loc>http://arie.malam.or.id/2005/01/06/firefox/</loc>
     
     <lastmod>2017-05-20T09:20:43.027Z</lastmod>
     
@@ -2221,13 +2228,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/01/08/kubrick/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.027Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2005/01/08/duh/</loc>
     
     <lastmod>2017-05-20T09:20:43.027Z</lastmod>
@@ -2235,7 +2235,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2005/01/06/firefox/</loc>
+    <loc>http://arie.malam.or.id/2005/01/08/kubrick/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.027Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2005/01/13/beauty-and-sadness/</loc>
     
     <lastmod>2017-05-20T09:20:43.027Z</lastmod>
     
@@ -2256,6 +2263,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/01/06/koment/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.027Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/01/03/macem2/</loc>
     
     <lastmod>2017-05-20T09:20:43.027Z</lastmod>
@@ -2270,30 +2284,16 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2005/01/07/ps-error/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.027Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2005/01/01/met-taun-baru/</loc>
     
     <lastmod>2017-05-20T09:20:43.027Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/10/bentuk-baru/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.027Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2005/01/06/koment/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.027Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/12/26/bikin-eggdrop/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.023Z</lastmod>
     
   </url>
   
@@ -2319,13 +2319,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/29/pogal/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.023Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2004/12/29/hureyy/</loc>
     
     <lastmod>2017-05-20T09:20:43.023Z</lastmod>
@@ -2333,14 +2326,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/28/fwd-something-nice-to-read/</loc>
+    <loc>http://arie.malam.or.id/2004/12/27/tau-gak-sih/</loc>
     
     <lastmod>2017-05-20T09:20:43.023Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/27/tau-gak-sih/</loc>
+    <loc>http://arie.malam.or.id/2004/12/28/fwd-something-nice-to-read/</loc>
     
     <lastmod>2017-05-20T09:20:43.023Z</lastmod>
     
@@ -2361,16 +2354,16 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/23/scramble/</loc>
+    <loc>http://arie.malam.or.id/2004/12/26/bikin-eggdrop/</loc>
     
-    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.023Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/19/ini-hari-minggu/</loc>
+    <loc>http://arie.malam.or.id/2004/12/29/pogal/</loc>
     
-    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
+    <lastmod>2017-05-20T09:20:43.023Z</lastmod>
     
   </url>
   
@@ -2382,28 +2375,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/14/pocongserv/</loc>
+    <loc>http://arie.malam.or.id/2004/12/23/scramble/</loc>
     
     <lastmod>2017-05-20T09:20:43.019Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/14/gd/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/12/13/beuh/</loc>
-    
-    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/12/12/selamat-jalan/</loc>
+    <loc>http://arie.malam.or.id/2004/12/19/ini-hari-minggu/</loc>
     
     <lastmod>2017-05-20T09:20:43.019Z</lastmod>
     
@@ -2424,6 +2403,34 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2004/12/13/beuh/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/12/14/pocongserv/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/12/14/gd/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/12/12/selamat-jalan/</loc>
+    
+    <lastmod>2017-05-20T09:20:43.019Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2004/12/08/gwa-2/</loc>
     
     <lastmod>2017-05-20T09:20:43.015Z</lastmod>
@@ -2431,7 +2438,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/05/virtualhost/</loc>
+    <loc>http://arie.malam.or.id/2004/12/04/flickr-gallery/</loc>
     
     <lastmod>2017-05-20T09:20:43.011Z</lastmod>
     
@@ -2452,7 +2459,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/04/flickr-gallery/</loc>
+    <loc>http://arie.malam.or.id/2004/12/05/virtualhost/</loc>
     
     <lastmod>2017-05-20T09:20:43.011Z</lastmod>
     
@@ -2480,7 +2487,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/02/channel-drop/</loc>
+    <loc>http://arie.malam.or.id/2004/12/03/move/</loc>
     
     <lastmod>2017-05-20T09:20:42.971Z</lastmod>
     
@@ -2494,21 +2501,21 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/12/03/move/</loc>
+    <loc>http://arie.malam.or.id/2004/12/02/channel-drop/</loc>
     
     <lastmod>2017-05-20T09:20:42.971Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/28/ada-apalagi-sih-chie/</loc>
+    <loc>http://arie.malam.or.id/2004/11/27/seven-years/</loc>
     
     <lastmod>2017-05-20T09:20:42.955Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/27/jealousy/</loc>
+    <loc>http://arie.malam.or.id/2004/11/28/ada-apalagi-sih-chie/</loc>
     
     <lastmod>2017-05-20T09:20:42.955Z</lastmod>
     
@@ -2543,13 +2550,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/27/seven-years/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.955Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2004/11/30/he-knows-you-know/</loc>
     
     <lastmod>2017-05-20T09:20:42.955Z</lastmod>
@@ -2557,7 +2557,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/19/new-blog/</loc>
+    <loc>http://arie.malam.or.id/2004/11/27/jealousy/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.955Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/11/22/script-for-a-jesters-tear/</loc>
     
     <lastmod>2017-05-20T09:20:42.951Z</lastmod>
     
@@ -2585,7 +2592,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/22/spam-word/</loc>
+    <loc>http://arie.malam.or.id/2004/11/19/new-blog/</loc>
     
     <lastmod>2017-05-20T09:20:42.951Z</lastmod>
     
@@ -2606,23 +2613,9 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/22/script-for-a-jesters-tear/</loc>
+    <loc>http://arie.malam.or.id/2004/11/22/spam-word/</loc>
     
     <lastmod>2017-05-20T09:20:42.951Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/11/17/yahoo-dan-antispam/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.943Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/11/13/mudik-mudik-mudik/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.943Z</lastmod>
     
   </url>
   
@@ -2656,6 +2649,20 @@
   
   <url>
     <loc>http://arie.malam.or.id/2004/11/10/spam/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.943Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/11/13/mudik-mudik-mudik/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.943Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/11/17/yahoo-dan-antispam/</loc>
     
     <lastmod>2017-05-20T09:20:42.943Z</lastmod>
     
@@ -2697,7 +2704,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/08/cowok/</loc>
+    <loc>http://arie.malam.or.id/2004/11/07/cinta-itu/</loc>
     
     <lastmod>2017-05-20T09:20:42.939Z</lastmod>
     
@@ -2711,7 +2718,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/07/cinta-itu/</loc>
+    <loc>http://arie.malam.or.id/2004/11/08/cowok/</loc>
     
     <lastmod>2017-05-20T09:20:42.939Z</lastmod>
     
@@ -2732,34 +2739,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/11/01/redesign/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/10/30/buka-bareng/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/10/28/xian-euy/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/10/27/install-eggdrop19/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2004/10/23/dua-kali/</loc>
     
     <lastmod>2017-05-20T09:20:42.903Z</lastmod>
@@ -2774,13 +2753,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/10/05/server-down/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2004/09/24/buat-kaomifuxi/</loc>
     
     <lastmod>2017-05-20T09:20:42.903Z</lastmod>
@@ -2788,7 +2760,42 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2004/11/01/redesign/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/10/30/buka-bareng/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/10/27/install-eggdrop19/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/10/28/xian-euy/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2004/09/09/hmm/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.903Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/10/05/server-down/</loc>
     
     <lastmod>2017-05-20T09:20:42.903Z</lastmod>
     
@@ -2823,7 +2830,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/05/14/rss-update/</loc>
+    <loc>http://arie.malam.or.id/2004/06/08/pisau/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.891Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/05/15/ezie-vs-mitik/</loc>
     
     <lastmod>2017-05-20T09:20:42.891Z</lastmod>
     
@@ -2831,13 +2845,6 @@
   
   <url>
     <loc>http://arie.malam.or.id/2004/07/24/telat-1-bulan/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.891Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/06/16/ada-yang-lucu-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:42.891Z</lastmod>
     
@@ -2858,14 +2865,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/06/07/carpe-diem/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.891Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2004/06/08/pisau/</loc>
+    <loc>http://arie.malam.or.id/2004/05/14/rss-update/</loc>
     
     <lastmod>2017-05-20T09:20:42.891Z</lastmod>
     
@@ -2879,7 +2879,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/05/15/ezie-vs-mitik/</loc>
+    <loc>http://arie.malam.or.id/2004/06/07/carpe-diem/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.891Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2004/06/16/ada-yang-lucu-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:42.891Z</lastmod>
     
@@ -2900,14 +2907,14 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/03/09/nexia-lagi/</loc>
+    <loc>http://arie.malam.or.id/2004/03/13/nexia/</loc>
     
     <lastmod>2017-05-20T09:20:42.815Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/03/06/bahasa/</loc>
+    <loc>http://arie.malam.or.id/2004/03/09/nexia-lagi/</loc>
     
     <lastmod>2017-05-20T09:20:42.815Z</lastmod>
     
@@ -2921,7 +2928,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/03/13/nexia/</loc>
+    <loc>http://arie.malam.or.id/2004/03/06/bahasa/</loc>
     
     <lastmod>2017-05-20T09:20:42.815Z</lastmod>
     
@@ -2935,7 +2942,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/03/02/warnet/</loc>
+    <loc>http://arie.malam.or.id/2004/03/04/aspack/</loc>
     
     <lastmod>2017-05-20T09:20:42.811Z</lastmod>
     
@@ -2949,13 +2956,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/03/04/aspack/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.811Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2004/03/04/roe-v-wade-orang-gila/</loc>
     
     <lastmod>2017-05-20T09:20:42.811Z</lastmod>
@@ -2963,7 +2963,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/02/23/gembrott/</loc>
+    <loc>http://arie.malam.or.id/2004/03/02/warnet/</loc>
     
     <lastmod>2017-05-20T09:20:42.811Z</lastmod>
     
@@ -2977,6 +2977,13 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2004/03/02/halloscancom/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.811Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2004/03/02/gwa/</loc>
     
     <lastmod>2017-05-20T09:20:42.811Z</lastmod>
@@ -2984,7 +2991,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2004/03/02/halloscancom/</loc>
+    <loc>http://arie.malam.or.id/2004/02/23/gembrott/</loc>
     
     <lastmod>2017-05-20T09:20:42.811Z</lastmod>
     
@@ -2994,41 +3001,6 @@
     <loc>http://arie.malam.or.id/2004/01/15/gwa-dan-adt/</loc>
     
     <lastmod>2017-05-20T09:20:42.811Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2003/11/18/hummpp/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2003/11/19/gak-mesti-bunga/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2003/11/18/hum/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2003/11/12/exploit-mirc-v612/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2003/11/06/supers-ready/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
     
   </url>
   
@@ -3047,7 +3019,42 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2003/11/18/hum/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2003/11/22/tahun-tahun-penting-perkembangan-virus/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2003/11/19/gak-mesti-bunga/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2003/11/18/hummpp/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2003/11/12/exploit-mirc-v612/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.807Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2003/11/06/supers-ready/</loc>
     
     <lastmod>2017-05-20T09:20:42.807Z</lastmod>
     
@@ -3082,7 +3089,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2003/10/23/ngelamun-wae/</loc>
+    <loc>http://arie.malam.or.id/2003/10/24/karena-cinta-tidak-selalu-harus-berwujud-bunga/</loc>
     
     <lastmod>2017-05-20T09:20:42.783Z</lastmod>
     
@@ -3096,7 +3103,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2003/10/24/karena-cinta-tidak-selalu-harus-berwujud-bunga/</loc>
+    <loc>http://arie.malam.or.id/2003/10/23/ngelamun-wae/</loc>
     
     <lastmod>2017-05-20T09:20:42.783Z</lastmod>
     
@@ -3110,7 +3117,7 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2003/10/22/imel-dari-temen-gwa/</loc>
+    <loc>http://arie.malam.or.id/2003/10/22/kearifan-segenggam-garam/</loc>
     
     <lastmod>2017-05-20T09:20:42.779Z</lastmod>
     
@@ -3124,7 +3131,21 @@
   </url>
   
   <url>
+    <loc>http://arie.malam.or.id/2003/10/22/mari-kita-merangkai-batu-batu-besar-biar-muat-di-ember/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.779Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://arie.malam.or.id/2003/10/18/script-itu/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.779Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2003/10/22/imel-dari-temen-gwa/</loc>
     
     <lastmod>2017-05-20T09:20:42.779Z</lastmod>
     
@@ -3138,27 +3159,6 @@
   </url>
   
   <url>
-    <loc>http://arie.malam.or.id/2003/10/22/mari-kita-merangkai-batu-batu-besar-biar-muat-di-ember/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.779Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2003/10/22/kearifan-segenggam-garam/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.779Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://arie.malam.or.id/2003/10/18/blaster/</loc>
-    
-    <lastmod>2017-05-20T09:20:42.775Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://arie.malam.or.id/2003/10/18/crotz/</loc>
     
     <lastmod>2017-05-20T09:20:42.775Z</lastmod>
@@ -3167,6 +3167,13 @@
   
   <url>
     <loc>http://arie.malam.or.id/2003/10/18/djbot/</loc>
+    
+    <lastmod>2017-05-20T09:20:42.775Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://arie.malam.or.id/2003/10/18/blaster/</loc>
     
     <lastmod>2017-05-20T09:20:42.775Z</lastmod>
     
