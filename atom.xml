@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Log Channel</title>
+  
   <subtitle>Log Channel</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -22,14 +23,7 @@
     <published>2017-09-26T16:15:12.000Z</published>
     <updated>2017-09-26T16:53:21.063Z</updated>
     
-    <content type="html"><![CDATA[<p>Ya pantesan aja sih gak kelar-kelar updatenya! kek gini sih..</p>
-<p><img alt="Screenshot" src="/images/Screenshot-from-2017-09-06-16:54:21.png"></p>
-<p>Ini mengganggu sekali, kadang kalo lagi browsing gw kudu reload sekali lagi
-biar gak jadi tampilan kosong.</p>
-<p><img alt="Screenshot 2" src="/images/Screenshot-from-2017-09-26-23:26:50.png"></p>
-<p>Gak aman keknya, bisa jadi nih gak ada yg namanya privacy kalo kek gini,
-dan juga.. buat apa gw beli paket internet kalo indosat masih kek gitu.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Ya pantesan aja sih gak kelar-kelar updatenya! kek gini sih..</p><p>  <img alt="Screenshot" src="/images/Screenshot-from-2017-09-06-16:54:21.png"></p><p>Ini mengganggu sekali, kadang kalo lagi browsing gw kudu reload sekali lagi biar  gak jadi tampilan kosong.</p><p>  <img alt="Screenshot 2" src="/images/Screenshot-from-2017-09-26-23:26:50.png"></p><p>Gak aman keknya, bisa jadi nih gak ada yg namanya privacy kalo kek gini, dan juga..  buat apa gw beli paket internet kalo indosat masih kek gitu.</p>]]></content>
     
     <summary type="html">
     
@@ -47,65 +41,7 @@ dan juga.. buat apa gw beli paket internet kalo indosat masih kek gitu.</p>
     <published>2017-05-20T09:15:12.000Z</published>
     <updated>2017-05-20T10:19:29.251Z</updated>
     
-    <content type="html"><![CDATA[<p>Masih berkaitan dengan postingan yg lalu, soal <a class="reference external" href="/2017/05/18/nambahin-description-ke-postingan/">munculnya nama
-lain</a> sebagai
-author blog, ternyata itu bukan karena description, tapi lebih ke
-<a class="reference external" href="https://www.npmjs.com/package/hexo-renderer-restructuredtext" target="_blank" rel="external">plugin</a>
-yang dipake.</p>
-<p>Plugin ini pake
-<a class="reference external" href="http://docutils.sourceforge.net/rst.html" target="_blank" rel="external">rst2html</a>
-buat ngerender reStructuredText ke HTML.</p>
-<p>Setiap kita panggil si <tt class="docutils literal">rst2html</tt>, hasilnya selalu full <tt class="docutils literal">HTML</tt>,
-dari mulai <tt class="docutils literal"><span class="pre">&lt;!DOCTYPE...</span></tt>, <tt class="docutils literal">&lt;head&gt;</tt>, sampe <tt class="docutils literal">&lt;html&gt;</tt>, jadi
-komplit banget, malahan termasuk <tt class="docutils literal">stylesheet</tt>-nya juga ada.</p>
-<p>Nah, dibagian stylesheetnya ini yg ada nama David itu.</p>
-<pre class="literal-block">
-&lt;style type=&quot;text/css&quot;&gt;
-/*
-:Author: David Goodger
-...
-*/
-&lt;/style&gt;
-</pre>
-<p>Padahal kita bisa ngilangin semua itu, termasuk stylesheetnya,
-karena kan kita gak perlu, yang kita mau cuma tulisan dalam
-format HTML.</p>
-<p>Caranya adalah dengan menambahkan option
-<tt class="docutils literal"><span class="pre">--template=my-template.txt</span></tt>, kenapa? karena isi dari default
-templatenya seperti ini:</p>
-<pre class="literal-block">
-%(head_prefix)s
-%(head)s
-%(stylesheet)s
-%(body_prefix)s
-%(body_pre_docinfo)s
-%(docinfo)s
-%(body)s
-%(body_suffix)s
-</pre>
-<p>Kita ga perlu yang lain-lain lagi, cuman perlu <tt class="docutils literal">%(body)s</tt> aja.</p>
-<p>Sekarang balik lagi ke plugin yg dipake, kita tamabah option tadi ke file <tt class="docutils literal">index.js</tt></p>
-<pre class="literal-block">
-// original:
-    var args = ['--math-output=&quot;MathJax&quot;',
-    '--smart-quotes=&quot;yes&quot;', '--traceback'];
-</pre>
-<p>Ubah menjadi:</p>
-<pre class="literal-block">
-// mod:
-    var args = ['--math-output=&quot;MathJax&quot;',
-    '--smart-quotes=&quot;yes&quot;', '--traceback',
-    '--template=/path/to/my-template.txt'];
-</pre>
-<p>Seperti disebut di atas, isi dari <tt class="docutils literal"><span class="pre">/path/to/my-template.txt</span></tt> hanya
-<tt class="docutils literal">%(body)s</tt> aja.</p>
-<p>Setelah itu, kita coba <cite>regenerate</cite></p>
-<pre class="literal-block">
-$ hexo clean
-$ hexo generate
-</pre>
-<p>Hasilnya jadi lebih bersih, coba deh.. ;)</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Masih berkaitan dengan postingan yg lalu, soal  <a class="reference external" href="/2017/05/18/nambahin-description-ke-postingan/">munculnya nama lain  </a> sebagai author blog, ternyata itu bukan karena description, tapi lebih ke  <a class="reference external" href="https://www.npmjs.com/package/hexo-renderer-restructuredtext" target="_blank" rel="noopener">plugin</a>  yang dipake.</p><p>Plugin ini pake  <a class="reference external" href="http://docutils.sourceforge.net/rst.html" target="_blank" rel="noopener">rst2html</a>  buat ngerender reStructuredText ke HTML.</p><p>Setiap kita panggil si  <tt class="docutils literal">rst2html</tt>, hasilnya selalu full  <tt class="docutils literal">HTML</tt>, dari mulai  <tt class="docutils literal">    <span class="pre">&lt;!DOCTYPE...</span>  </tt>,  <tt class="docutils literal">&lt;head&gt;</tt>, sampe  <tt class="docutils literal">&lt;html&gt;</tt>, jadi komplit banget, malahan termasuk  <tt class="docutils literal">stylesheet</tt>-nya juga ada.</p><p>Nah, dibagian stylesheetnya ini yg ada nama David itu.</p><pre class="literal-block">&lt;style type=&quot;text/css&quot;&gt;/*:Author: David Goodger...*/&lt;/style&gt;</pre><p>Padahal kita bisa ngilangin semua itu, termasuk stylesheetnya, karena kan kita gak  perlu, yang kita mau cuma tulisan dalam format HTML.</p><p>Caranya adalah dengan menambahkan option  <tt class="docutils literal">    <span class="pre">--template=my-template.txt</span>  </tt>, kenapa? karena isi dari default templatenya seperti ini:</p><pre class="literal-block">%(head_prefix)s%(head)s%(stylesheet)s%(body_prefix)s%(body_pre_docinfo)s%(docinfo)s%(body)s%(body_suffix)s</pre><p>Kita ga perlu yang lain-lain lagi, cuman perlu  <tt class="docutils literal">%(body)s</tt> aja.</p><p>Sekarang balik lagi ke plugin yg dipake, kita tamabah option tadi ke file  <tt class="docutils literal">index.js</tt></p><pre class="literal-block">// original:    var args = ['--math-output=&quot;MathJax&quot;',    '--smart-quotes=&quot;yes&quot;', '--traceback'];</pre><p>Ubah menjadi:</p><pre class="literal-block">// mod:    var args = ['--math-output=&quot;MathJax&quot;',    '--smart-quotes=&quot;yes&quot;', '--traceback',    '--template=/path/to/my-template.txt'];</pre><p>Seperti disebut di atas, isi dari  <tt class="docutils literal">    <span class="pre">/path/to/my-template.txt</span>  </tt> hanya  <tt class="docutils literal">%(body)s</tt> aja.</p><p>Setelah itu, kita coba  <cite>regenerate</cite></p><pre class="literal-block">$ hexo clean$ hexo generate</pre><p>Hasilnya jadi lebih bersih, coba deh.. ;)</p>]]></content>
     
     <summary type="html">
     
@@ -127,72 +63,7 @@ $ hexo generate
     <published>2017-05-18T02:22:16.000Z</published>
     <updated>2017-05-20T10:22:47.835Z</updated>
     
-    <content type="html"><![CDATA[<p>Setelah berhasil <a class="reference external" href="/2017/05/17/deploying-hexo-to-github/">deploy ke git pake plugin</a>
-dan udah bisa diliat <a class="reference external" href="http://arie.malam.or.id/">hasilnya</a>.</p>
-<p>Cuman kok pas liat <cite>html source</cite>, kok authornya orang laennn.</p>
-<p><img alt="scshoot" src="/images/html-source.png"></p>
-<p>Setelah ditelusuri, ternyata dari <a class="reference external" href="https://github.com/probberechts/cactus-dark" target="_blank" rel="external">template</a> yang dipake
-<a class="reference external" href="https://github.com/probberechts/cactus-dark/blob/master/layout/_partial/head.ejs#L7" target="_blank" rel="external">manggil</a>
-<tt class="docutils literal">open_graph</tt> <cite>helper</cite>. Emang sih, gw gak set site description di <tt class="docutils literal">_config.yml</tt>, tapi teteuppp
-ntah kenapa kok yg muncul nama itu.</p>
-<p>Ya sudah lah ya, sekarang gimana caranya biar nama itu gak muncul. Tambahin meta description
-<strong>di setiap post</strong>.</p>
-<p>Karena terlalu banyak file yang kudu diupdate, akhirnya bikin script kecil, karena gak ngerti
-<tt class="docutils literal">nodejs</tt>, scriptnya pake php.</p>
-<p>Pertama kumpulkan semua files yang mau kita tambahin <cite>description</cite>-nya.</p>
-<pre class="literal-block">
-$pattern   = '/^.+_(posts|drafts).+\.rst$/i';
-$files     = [];
-$path      = realpath('/path/to/source/dir');
-
-$directory = new \RecursiveDirectoryIterator($path);
-$iterator  = new \RecursiveIteratorIterator($directory);
-$regex     = new \RegexIterator($iterator, $pattern, \RecursiveRegexIterator::GET_MATCH);
-
-foreach ($regex as $file) $files[] = $file[0];
-</pre>
-<p>Kenapa <tt class="docutils literal">$file[0]</tt>? gak tau :D, mungkin hasil dari <tt class="docutils literal"><span class="pre">preg_match($pattern,</span> $path)</tt></p>
-<pre class="literal-block">
-&gt;&gt;&gt; preg_match($pattern, '/path/to/source/dir/_drafts/2004-12-04-open-only-if-you-have-time-for-god.rst', $file);
-=&gt; 1
-&gt;&gt;&gt; $file
-=&gt; [
-     &quot;/path/to/source/dir/_drafts/2004-12-04-open-only-if-you-have-time-for-god.rst&quot;,
-     &quot;drafts&quot;,
-   ]
-</pre>
-<p>Nah, mungkin yg direturn itu adalah hasil dari <tt class="docutils literal">preg_match</tt> tadi.</p>
-<p>Setelah semua filesnya udah kumpul, tinggal update satu per satu.</p>
-<p>Ambil meta (paling atas)</p>
-<pre class="literal-block">
-$content = file_get_contents($file);
-
-$add_description = function(&amp; $content) {
-    /*
-     * hanya tambah description kalo blom ada
-     * samain aja descriptionnya dengan title
-     */
-    if (! preg_match('!^description:!mi', $content)) {
-        if (preg_match(&quot;!^(title: (?&lt;title&gt;.+))$!mi&quot;, $entry, $match)) {
-            $entry .= &quot;\ndescription: {$match['title']}&quot;;
-        }
-    }
-};
-
-if (preg_match('!^(?&lt;fl&gt;-{2,})$\n(?&lt;c&gt;.*)\n^(?&lt;sl&gt;-{2,})$!sim', $content, $match)) {
-    $match     = ['fl' =&gt; $match['fl'], 'c' =&gt; $match['c'], 'sl' =&gt; $match['sl']];
-    $original  = join(&quot;\n&quot;, $match);
-
-    $add_description($match['c']);
-
-    $new_meta  = join(&quot;\n&quot;, $match);
-    $content   = str_replace($original, $new_meta, $content);
-
-    file_put_contents($file, $content);
-}
-</pre>
-<p>nah kira-kira seperti <a class="reference external" href="https://gist.github.com/ariews/1ff5e5b212853b6d2da6d12e12eb423c" target="_blank" rel="external">itu</a>.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Setelah berhasil  <a class="reference external" href="/2017/05/17/deploying-hexo-to-github/">deploy ke git pake plugin</a>  dan udah bisa diliat  <a class="reference external" href="http://arie.malam.or.id/">hasilnya</a>.</p><p>Cuman kok pas liat  <cite>html source</cite>, kok authornya orang laennn.</p><p>  <img alt="scshoot" src="/images/html-source.png"></p><p>Setelah ditelusuri, ternyata dari  <a class="reference external" href="https://github.com/probberechts/cactus-dark" target="_blank" rel="noopener">template</a> yang dipake  <a class="reference external" href="https://github.com/probberechts/cactus-dark/blob/master/layout/_partial/head.ejs#L7" target="_blank" rel="noopener">manggil</a>  <tt class="docutils literal">open_graph</tt>  <cite>helper</cite>. Emang sih, gw gak set site description di  <tt class="docutils literal">_config.yml</tt>, tapi teteuppp ntah kenapa kok yg muncul nama itu.</p><p>Ya sudah lah ya, sekarang gimana caranya biar nama itu gak muncul. Tambahin meta  description  <strong>di setiap post</strong>.</p><p>Karena terlalu banyak file yang kudu diupdate, akhirnya bikin script kecil, karena  gak ngerti  <tt class="docutils literal">nodejs</tt>, scriptnya pake php.</p><p>Pertama kumpulkan semua files yang mau kita tambahin  <cite>description</cite>-nya.</p><pre class="literal-block">$pattern   = '/^.+_(posts|drafts).+\.rst$/i';$files     = [];$path      = realpath('/path/to/source/dir');$directory = new \RecursiveDirectoryIterator($path);$iterator  = new \RecursiveIteratorIterator($directory);$regex     = new \RegexIterator($iterator, $pattern, \RecursiveRegexIterator::GET_MATCH);foreach ($regex as $file) $files[] = $file[0];</pre><p>Kenapa  <tt class="docutils literal">$file[0]</tt>? gak tau :D, mungkin hasil dari  <tt class="docutils literal">    <span class="pre">preg_match($pattern,</span> $path)</tt></p><pre class="literal-block">&gt;&gt;&gt; preg_match($pattern, '/path/to/source/dir/_drafts/2004-12-04-open-only-if-you-have-time-for-god.rst', $file);=&gt; 1&gt;&gt;&gt; $file=&gt; [     &quot;/path/to/source/dir/_drafts/2004-12-04-open-only-if-you-have-time-for-god.rst&quot;,     &quot;drafts&quot;,   ]</pre><p>Nah, mungkin yg direturn itu adalah hasil dari  <tt class="docutils literal">preg_match</tt> tadi.</p><p>Setelah semua filesnya udah kumpul, tinggal update satu per satu.</p><p>Ambil meta (paling atas)</p><pre class="literal-block">$content = file_get_contents($file);$add_description = function(&amp; $content) {    /*     * hanya tambah description kalo blom ada     * samain aja descriptionnya dengan title     */    if (! preg_match('!^description:!mi', $content)) {        if (preg_match(&quot;!^(title: (?&lt;title&gt;.+))$!mi&quot;, $entry, $match)) {            $entry .= &quot;\ndescription: {$match['title']}&quot;;        }    }};if (preg_match('!^(?&lt;fl&gt;-{2,})$\n(?&lt;c&gt;.*)\n^(?&lt;sl&gt;-{2,})$!sim', $content, $match)) {    $match     = ['fl' =&gt; $match['fl'], 'c' =&gt; $match['c'], 'sl' =&gt; $match['sl']];    $original  = join(&quot;\n&quot;, $match);    $add_description($match['c']);    $new_meta  = join(&quot;\n&quot;, $match);    $content   = str_replace($original, $new_meta, $content);    file_put_contents($file, $content);}</pre><p>nah kira-kira seperti  <a class="reference external" href="https://gist.github.com/ariews/1ff5e5b212853b6d2da6d12e12eb423c" target="_blank" rel="noopener">itu</a>.</p>]]></content>
     
     <summary type="html">
     
@@ -212,60 +83,7 @@ if (preg_match('!^(?&lt;fl&gt;-{2,})$\n(?&lt;c&gt;.*)\n^(?&lt;sl&gt;-{2,})$!sim'
     <published>2017-05-17T03:34:43.000Z</published>
     <updated>2017-05-20T09:20:43.499Z</updated>
     
-    <content type="html"><![CDATA[<p>Setelah menulis, biasanya kita melakukan generate html dengan <tt class="docutils literal">hexo
-generate</tt>, lalu hasilnya kita push ke static repo, di kasus saya
-adalah github.</p>
-<p>Prosesnya kira-kira seperti ini:</p>
-<pre class="literal-block">
-$ hexo new post &quot;deploying hexo to github&quot;
-INFO  Created: ~/path/to/source/_posts/deploying-hexo-to-github.md
-</pre>
-<p>Terusss… beres nulis, dan <tt class="docutils literal">generate</tt> kita <tt class="docutils literal">push</tt> deh.</p>
-<pre class="literal-block">
-$ cd public
-$ git add . &amp;&amp; git push
-</pre>
-<p>Oh ya, folder output punya gw ini adalah <tt class="docutils literal">submodule</tt> ke static repo,
-jadi bisa melakukan <tt class="docutils literal">git</tt> di sana.</p>
-<p>Nah beres, kita berhasil posting output hasil <cite>generated</cite> ke github.</p>
-<p>Cara lainnya adalah pake plugin <a class="reference external" href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="external">hexo-deployer-git</a>.</p>
-<p>Ngikutin apa yg ada di README:</p>
-<pre class="literal-block">
-$ npm install \
-    git+git&#64;github.com:hexojs/hexo-deployer-git.git \
-    --save
-</pre>
-<p>Lalu kita aktifkan pluginnya di <tt class="docutils literal">_config.yml</tt></p>
-<pre class="literal-block">
-plugins:
-  hexo-deployer-git
-</pre>
-<p>Jangan lupa, <cite>update</cite> <tt class="docutils literal">_config.yml</tt>-nya ngikutin yg ada di petunjuk.</p>
-<pre class="literal-block">
-deploy:
-  type: git
-  repo: &lt;repository url&gt;
-  branch: [branch]
-</pre>
-<p>Misalnya untuk <tt class="docutils literal">log channel</tt>:</p>
-<pre class="literal-block">
-deploy:
-  type: git
-  repo: git&#64;github.com:username/pages.github.io.git
-  branch: master
-</pre>
-<p>Lalu, kita clone static repo kita di <tt class="docutils literal">.deploy_git</tt></p>
-<pre class="literal-block">
-$ git clone \
-    git&#64;github.com:username/pages.github.io.git \
-    .deploy_git
-</pre>
-<p>Sip… sekarang, setiap kita <cite>generate</cite> udah bisa langsung otomatis deploy ke github.</p>
-<pre class="literal-block">
-$ hexo generate -d # generate dan langsung deploy
-</pre>
-<p>Nah, selamat mencoba ya!!</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Setelah menulis, biasanya kita melakukan generate html dengan  <tt class="docutils literal">hexo generate  </tt>, lalu hasilnya kita push ke static repo, di kasus saya adalah github.</p><p>Prosesnya kira-kira seperti ini:</p><pre class="literal-block">$ hexo new post &quot;deploying hexo to github&quot;INFO  Created: ~/path/to/source/_posts/deploying-hexo-to-github.md</pre><p>Terusss… beres nulis, dan  <tt class="docutils literal">generate</tt> kita  <tt class="docutils literal">push</tt> deh.</p><pre class="literal-block">$ cd public$ git add . &amp;&amp; git push</pre><p>Oh ya, folder output punya gw ini adalah  <tt class="docutils literal">submodule</tt> ke static repo, jadi bisa melakukan  <tt class="docutils literal">git</tt> di sana.</p><p>Nah beres, kita berhasil posting output hasil  <cite>generated</cite> ke github.</p><p>Cara lainnya adalah pake plugin  <a class="reference external" href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="noopener">hexo-deployer-git</a>.</p><p>Ngikutin apa yg ada di README:</p><pre class="literal-block">$ npm install \    git+git&#64;github.com:hexojs/hexo-deployer-git.git \    --save</pre><p>Lalu kita aktifkan pluginnya di  <tt class="docutils literal">_config.yml</tt></p><pre class="literal-block">plugins:  hexo-deployer-git</pre><p>Jangan lupa,  <cite>update</cite>  <tt class="docutils literal">_config.yml</tt>-nya ngikutin yg ada di petunjuk.</p><pre class="literal-block">deploy:  type: git  repo: &lt;repository url&gt;  branch: [branch]</pre><p>Misalnya untuk  <tt class="docutils literal">log channel</tt>:</p><pre class="literal-block">deploy:  type: git  repo: git&#64;github.com:username/pages.github.io.git  branch: master</pre><p>Lalu, kita clone static repo kita di  <tt class="docutils literal">.deploy_git</tt></p><pre class="literal-block">$ git clone \    git&#64;github.com:username/pages.github.io.git \    .deploy_git</pre><p>Sip… sekarang, setiap kita  <cite>generate</cite> udah bisa langsung otomatis deploy ke github.</p><pre class="literal-block">$ hexo generate -d # generate dan langsung deploy</pre><p>Nah, selamat mencoba ya!!</p>]]></content>
     
     <summary type="html">
     
@@ -289,64 +107,7 @@ $ hexo generate -d # generate dan langsung deploy
     <published>2017-05-16T15:52:44.000Z</published>
     <updated>2017-05-20T09:20:43.479Z</updated>
     
-    <content type="html"><![CDATA[<p>Setelah bertahun-tahun ngeblog pake <a class="reference external" href="/2014/11/07/ke-pelican/">Pelican</a>, itu pun banyak idle-nya, sebab gak nyempetin buat nulis.</p>
-<p>Nah sekarang isengn pengen ngidupin lagi, tapi sayangnya, Pelican udah lama gak aktif developmenya. <em>Ehh ternyata bukan karena gak aktif, tapi pelican gwnya aja yg gak bener, selalu error JINJA2_EXTENSIONS gitu, dan gak beres-beres masalahnya</em>.</p>
-<p>Setelah nyari sana-sini, akhirnya pake <a class="reference external" href="http://hexo.io" target="_blank" rel="external">Hexo</a>, tapi karena pas pake Pelican gw pake format reStucturedText, jadi ga bisa langsung ganti engine, kudu converting dulu.</p>
-<p>Berikut format lama gw:</p>
-<pre class="literal-block">
-====
-test
-====
-
-:date: 2003-08-21 09:50
-:tags: Myself
-:category: Blog
-:slug: posts/read/1/test
-
-ezie :p~
-</pre>
-<p>setelah diupdated menjadi:</p>
-<pre class="literal-block">
-----------------------------
-title: test
-date: 2003-08-21 09:50
-tags:
-  - Myself
-----------------------------
-
-ezie :p~
-</pre>
-<p>Lebih terlihat bedanya antara meta sama content.</p>
-<p>Cuman sayangnyan, masih belum puas untuk settingan <cite>:slug:</cite> atau <cite>permalink</cite>.</p>
-<p>Kudunya sih bisa di`override`, tapi nyatanya ga :| , misal <cite>config.yml</cite>:</p>
-<pre class="literal-block">
-permalink: :year/:month/:day/:title/
-</pre>
-<p>lalu file .rst kita, kasih tambahan:</p>
-<pre class="literal-block">
-----------------------------
-title: test
-date: 2003-08-21 09:50
-tags:
-  - Myself
-permalink: you-rock
-----------------------------
-
-ezie :p~
-</pre>
-<p>Harusnya permalink jadi:</p>
-<pre class="literal-block">
-/you-rock/
-</pre>
-<p>Kenyataannya gak, permalink malah jadi:</p>
-<pre class="literal-block">
-/203/08/21/you-rock
-</pre>
-<p>Ini gw yg belum tau atau emang kek gitu?</p>
-<p>Karena gak bisa, maka semua disqus comment yg sebelumnya jadi ilang, pasti ada cara
-settingan yg pas buat update permalink..</p>
-<p>Juga untuk tags, gak bisa pake (atau gw belom tau caranya) comma-separated, kudu dilist seperti di atas.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Setelah bertahun-tahun ngeblog pake  <a class="reference external" href="/2014/11/07/ke-pelican/">Pelican</a>, itu pun banyak idle-nya, sebab gak nyempetin buat nulis.</p><p>Nah sekarang isengn pengen ngidupin lagi, tapi sayangnya, Pelican udah lama gak aktif  developmenya.  <em>Ehh ternyata bukan karena gak aktif, tapi pelican gwnya aja yg gak bener, selalu    error JINJA2_EXTENSIONS gitu, dan gak beres-beres masalahnya</em>.</p><p>Setelah nyari sana-sini, akhirnya pake  <a class="reference external" href="http://hexo.io" target="_blank" rel="noopener">Hexo</a>, tapi karena pas pake Pelican gw pake format reStucturedText, jadi ga  bisa langsung ganti engine, kudu converting dulu.</p><p>Berikut format lama gw:</p><pre class="literal-block">====test====:date: 2003-08-21 09:50:tags: Myself:category: Blog:slug: posts/read/1/testezie :p~</pre><p>setelah diupdated menjadi:</p><pre class="literal-block">----------------------------title: testdate: 2003-08-21 09:50tags:  - Myself----------------------------ezie :p~</pre><p>Lebih terlihat bedanya antara meta sama content.</p><p>Cuman sayangnyan, masih belum puas untuk settingan  <cite>:slug:</cite> atau  <cite>permalink</cite>.</p><p>Kudunya sih bisa di`override`, tapi nyatanya ga :| , misal  <cite>config.yml</cite>:</p><pre class="literal-block">permalink: :year/:month/:day/:title/</pre><p>lalu file .rst kita, kasih tambahan:</p><pre class="literal-block">----------------------------title: testdate: 2003-08-21 09:50tags:  - Myselfpermalink: you-rock----------------------------ezie :p~</pre><p>Harusnya permalink jadi:</p><pre class="literal-block">/you-rock/</pre><p>Kenyataannya gak, permalink malah jadi:</p><pre class="literal-block">/203/08/21/you-rock</pre><p>Ini gw yg belum tau atau emang kek gitu?</p><p>Karena gak bisa, maka semua disqus comment yg sebelumnya jadi ilang, pasti ada cara  settingan yg pas buat update permalink..</p><p>Juga untuk tags, gak bisa pake (atau gw belom tau caranya) comma-separated, kudu  dilist seperti di atas.</p>]]></content>
     
     <summary type="html">
     
@@ -368,16 +129,7 @@ settingan yg pas buat update permalink..</p>
     <published>2015-02-10T10:15:00.000Z</published>
     <updated>2017-05-20T09:20:43.479Z</updated>
     
-    <content type="html"><![CDATA[<p><img alt="OctoberCMS Logo" src="/images/octobercms-logo.png"></p>
-<p>Tahun baru udah lewat, gak kerasa udah februari lagi, jadi keknya udah
-basi kalo ngucapin selamat tahun baru ya :D</p>
-<p>Belakangan ini, pekerjaan gw akan (sedang) dipindah ke CMS baru yg
-namanya <a class="reference external" href="http://octobercms.com/" target="_blank" rel="external">OctoberCMS</a>, banyak hal yg bisa dipelajari di CMS baru ini.</p>
-<p>Perbedaannya mencolok banget kalo dibandingkan dengan Kohana, OK untuk
-yg ini gw ketinggalan banget.</p>
-<p>Ternyata OctoberCMS ini menggunakan dari <a class="reference external" href="http://laravel.com/" target="_blank" rel="external">Laravel</a>.</p>
-<p>Udah gitu ajah :P</p>
-]]></content>
+    <content type="html"><![CDATA[<p>  <img alt="OctoberCMS Logo" src="/images/octobercms-logo.png"></p><p>Tahun baru udah lewat, gak kerasa udah februari lagi, jadi keknya udah basi kalo  ngucapin selamat tahun baru ya :D</p><p>Belakangan ini, pekerjaan gw akan (sedang) dipindah ke CMS baru yg namanya  <a class="reference external" href="http://octobercms.com/" target="_blank" rel="noopener">OctoberCMS</a>, banyak hal yg bisa dipelajari di CMS baru ini.</p><p>Perbedaannya mencolok banget kalo dibandingkan dengan Kohana, OK untuk yg ini gw  ketinggalan banget.</p><p>Ternyata OctoberCMS ini menggunakan dari  <a class="reference external" href="http://laravel.com/" target="_blank" rel="noopener">Laravel</a>.</p><p>Udah gitu ajah :P</p>]]></content>
     
     <summary type="html">
     
@@ -395,26 +147,7 @@ yg ini gw ketinggalan banget.</p>
     <published>2014-12-17T10:45:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p><img alt="Gambar Server" src="/images/vps-server.jpg"></p>
-<p>Ada temen gw nanya</p>
-<blockquote>
-Kenapa rie pake VPS murah? kan banyak hosting lain yg lebih bagus
-dan lumayan murah?</blockquote>
-<p>Salah satu jawabannya sih, sudah pasti duit ya, untuk <a class="reference external" href="http://en.wikipedia.org/wiki/Virtual_private_server" target="_blank" rel="external">VPS</a> yg gw
-pake skr, gw pake INIZ, bisa lo cari di <a class="reference external" href="http://lowendbox.com/" target="_blank" rel="external">LEB</a>. Gak perlu yg bagus
-juga apalagi yg mahal, bukan berarti gw gak mau ya. Tapi karena ini
-cuman blog pribadi, pengunjungnya juga cuman bot dari <cite>search
-engine</cite>, itu pun cuman beberapa aja :).</p>
-<pre class="literal-block">
-# awk '{print $1}' /var/www/arie.malam.or.id/access.log | \
-  wc -l
-79
-</pre>
-<p>See, cuman 79 pengunjung sejak 6 hari lalu :D.</p>
-<p>Terus kenapa harus VPS? Ya soalnya gw butuh beuat belajar aja sih,
-seting server, config  ini-itu, kalo gagal ya install ulang aja.
-Di tempat hostingan kan gak bisa gitu :)</p>
-]]></content>
+    <content type="html"><![CDATA[<p>  <img alt="Gambar Server" src="/images/vps-server.jpg"></p><p>Ada temen gw nanya</p><blockquote>  Kenapa rie pake VPS murah? kan banyak hosting lain yg lebih bagus dan lumayan murah?</blockquote><p>Salah satu jawabannya sih, sudah pasti duit ya, untuk  <a class="reference external" href="http://en.wikipedia.org/wiki/Virtual_private_server" target="_blank" rel="noopener">VPS</a> yg gw pake skr, gw pake INIZ, bisa lo cari di  <a class="reference external" href="http://lowendbox.com/" target="_blank" rel="noopener">LEB</a>. Gak perlu yg bagus juga apalagi yg mahal, bukan berarti gw gak mau ya.  Tapi karena ini cuman blog pribadi, pengunjungnya juga cuman bot dari  <cite>search engine  </cite>, itu pun cuman beberapa aja :).</p><pre class="literal-block"># awk '{print $1}' /var/www/arie.malam.or.id/access.log | \  wc -l79</pre><p>See, cuman 79 pengunjung sejak 6 hari lalu :D.</p><p>Terus kenapa harus VPS? Ya soalnya gw butuh beuat belajar aja sih, seting server,  config ini-itu, kalo gagal ya install ulang aja. Di tempat hostingan kan gak bisa  gitu :)</p>]]></content>
     
     <summary type="html">
     
@@ -432,66 +165,7 @@ Di tempat hostingan kan gak bisa gitu :)</p>
     <published>2014-12-11T08:45:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p>Wuiidiihh ganti lagi! Sebenernya siapa yg galau sih? webservernya
-atau gw? Hahahaha..</p>
-<p>Ya ya.. kemaren gw emang udah sukses seting monyet beserta script
-buat autoblogged. Tapi ternyata masih <a class="reference external" href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Monkey+HTTP" target="_blank" rel="external">ada bugs</a>, terlebih soal
-<a class="reference external" href="http://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_attack" target="_blank" rel="external">DDoS</a> di versi lama <a class="reference external" href="http://monkey-project.com/" target="_blank" rel="external">Monkey HTTP</a>.</p>
-<p>Jadi ya udah lah, gw balik lagi pake nginx, beda memory 1mega doang
-keknya gak terlalu signifikan. Dan lagi, nginx sudah menjadi
-<a class="reference external" href="http://en.wikipedia.org/wiki/Web_server" target="_blank" rel="external">HTTP Server</a> favorit gw ;)</p>
-<p>Terus buat <tt class="docutils literal">CGI</tt>-nya, gw pake <tt class="docutils literal">uWSGI</tt>, yg ternyata instalasinya
-relative gampang. Gw ikutin cara <a class="reference external" href="http://raspberrywebserver.com/cgiscripting/setting-up-nginx-and-uwsgi-for-cgi-scripting.html" target="_blank" rel="external">installasi uWSGI di raspeberry</a>,
-tapi dengan sedikit perbedaan.</p>
-<p>Untuk install nginx, gw pake <cite>apt-get</cite> aja:</p>
-<pre class="literal-block">
-# apt-get install nginx
-# apt-get install uwsgi uwsgi-plugin-cgi
-</pre>
-<p>Lalu dibagian server config:</p>
-<pre class="literal-block">
-location /cgi/ {
-    autoindex       off;
-    gzip            off;
-    include         uwsgi_params;
-    uwsgi_modifier1 9;
-    uwsgi_pass      127.0.0.1:2014;
-}
-</pre>
-<p>dan aplikasi untuk <tt class="docutils literal">uWSGI</tt>:</p>
-<pre class="literal-block">
-[uwsgi]
-plugins = cgi
-socket = 127.0.0.1:2014
-cgi = /cgi=/var/www/arie.malam.or.id/cgi
-cgi-allowed-ext = .cgi
-cgi-allowed-ext = .pl
-</pre>
-<p>jadi deh, gw tinggal panggil <a class="reference external" href="http://arie.malam.or.id/cgi/hello.cgi">scriptnya</a> seperti ini:</p>
-<pre class="literal-block">
-$ curl -v http://arie.malam.or.id/cgi/hello.cgi
-* Hostname was NOT found in DNS cache
-*   Trying 185.53.129.214...
-*   Trying 2a02:2ca0:aaa::86c0:94de...
-* Connected to arie.malam.or.id (185.53.129.214) port 80 (#0)
-&gt; GET /cgi/hello.cgi HTTP/1.1
-&gt; User-Agent: curl/7.35.0
-&gt; Host: arie.malam.or.id
-&gt; Accept: */*
-&gt;
-&lt; HTTP/1.1 200 OK
-* Server nginx/1.6.2 is not blacklisted
-&lt; Server: nginx/1.6.2
-&lt; Date: Thu, 11 Dec 2014 08:59:59 GMT
-&lt; Content-Type: text/html
-&lt; Transfer-Encoding: chunked
-&lt; Connection: keep-alive
-&lt;
-Hello, world!
-* Connection #0 to host arie.malam.or.id left intact
-</pre>
-<p>Sukses!!</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Wuiidiihh ganti lagi! Sebenernya siapa yg galau sih? webservernya atau gw? Hahahaha..</p><p>Ya ya.. kemaren gw emang udah sukses seting monyet beserta script buat autoblogged.  Tapi ternyata masih  <a class="reference external" href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Monkey+HTTP" target="_blank" rel="noopener">ada bugs</a>, terlebih soal  <a class="reference external" href="http://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_attack" target="_blank" rel="noopener">DDoS</a> di versi lama  <a class="reference external" href="http://monkey-project.com/" target="_blank" rel="noopener">Monkey HTTP</a>.</p><p>Jadi ya udah lah, gw balik lagi pake nginx, beda memory 1mega doang keknya gak terlalu  signifikan. Dan lagi, nginx sudah menjadi  <a class="reference external" href="http://en.wikipedia.org/wiki/Web_server" target="_blank" rel="noopener">HTTP Server</a> favorit gw ;)</p><p>Terus buat  <tt class="docutils literal">CGI</tt>-nya, gw pake  <tt class="docutils literal">uWSGI</tt>, yg ternyata instalasinya relative gampang. Gw ikutin cara  <a class="reference external" href="http://raspberrywebserver.com/cgiscripting/setting-up-nginx-and-uwsgi-for-cgi-scripting.html" target="_blank" rel="noopener">installasi uWSGI di raspeberry</a>, tapi dengan sedikit perbedaan.</p><p>Untuk install nginx, gw pake  <cite>apt-get</cite> aja:</p><pre class="literal-block"># apt-get install nginx# apt-get install uwsgi uwsgi-plugin-cgi</pre><p>Lalu dibagian server config:</p><pre class="literal-block">location /cgi/ {    autoindex       off;    gzip            off;    include         uwsgi_params;    uwsgi_modifier1 9;    uwsgi_pass      127.0.0.1:2014;}</pre><p>dan aplikasi untuk  <tt class="docutils literal">uWSGI</tt>:</p><pre class="literal-block">[uwsgi]plugins = cgisocket = 127.0.0.1:2014cgi = /cgi=/var/www/arie.malam.or.id/cgicgi-allowed-ext = .cgicgi-allowed-ext = .pl</pre><p>jadi deh, gw tinggal panggil  <a class="reference external" href="http://arie.malam.or.id/cgi/hello.cgi">scriptnya</a> seperti ini:</p><pre class="literal-block">$ curl -v http://arie.malam.or.id/cgi/hello.cgi* Hostname was NOT found in DNS cache*   Trying 185.53.129.214...*   Trying 2a02:2ca0:aaa::86c0:94de...* Connected to arie.malam.or.id (185.53.129.214) port 80 (#0)&gt; GET /cgi/hello.cgi HTTP/1.1&gt; User-Agent: curl/7.35.0&gt; Host: arie.malam.or.id&gt; Accept: */*&gt;&lt; HTTP/1.1 200 OK* Server nginx/1.6.2 is not blacklisted&lt; Server: nginx/1.6.2&lt; Date: Thu, 11 Dec 2014 08:59:59 GMT&lt; Content-Type: text/html&lt; Transfer-Encoding: chunked&lt; Connection: keep-alive&lt;Hello, world!* Connection #0 to host arie.malam.or.id left intact</pre><p>Sukses!!</p>]]></content>
     
     <summary type="html">
     
@@ -517,48 +191,7 @@ Hello, world!
     <published>2014-12-10T15:15:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p>Ok, udah dicoba beberapa hal. Nyoba balik ke nginx, makan memory
-lebih gede, ya gak gitu jauh sih, tapi lumayan untuk VPS gw yang
-lowmem, juga lumayan nambah kerjaan buat gw yg lagi males nyeting,
-soalnya kudu milih cginya nih mau pake apaan. Soalnya secara bawaan
-nginx gak ngedukung CGI.</p>
-<p>Akhirnya nyoba downgrade pake <a class="reference external" href="https://packages.debian.org/squeeze/monkey" target="_blank" rel="external">monyet yang ada di squeeze</a>, dan
-lancar jaya ;). Autoblogged bisa jalan lagi, juga memory yg kepake
-cuman dikit. Huuuuraaayyy!!</p>
-<p>Struktur folder dan file yg gw pake kek gini:</p>
-<pre class="literal-block">
-/var/www/arie.malam.or.id/
-  |- cgi &lt;-- tempat naro Perl script buat autoblogged
-  |- public &lt;-- ouput dari Pelican, juga jadi document root
-                untuk web
-</pre>
-<p>Isi Perl script yg gw pake kira2 seperti ini:</p>
-<pre class="literal-block">
-#!/usr/bin/perl
-
-use Net::IP::Match::Bin;
-
-print &quot;Content-type:text/plain\n\n&quot;;
-
-my $ipm = Net::IP::Match::Bin-&gt;new();
-
-# http://goo.gl/4ZNMGs
-$ipm-&gt;add(['131.103.20.167', '131.103.20.165',
-           '131.103.20.168', '131.103.20.166',
-           '131.103.20.169', '131.103.20.170']);
-
-if (($ENV{'REQUEST_METHOD'} eq 'POST') &amp;&amp;
-    ($ipm-&gt;match_ip($ENV{'REMOTE_ADDR'}) != undef)) {
-    exec('/path/to/bash/script.sh');
-    print 'Executed!';
-}
-</pre>
-<p>Hanya untuk menjalankan script yg sebenernya sih, yaitu si shell
-script, yg tugasnya adalah check update dari blog repo (termasuk
-plugins, themes dan tentu aja content), lalu menjalankan pelican di
-virtualenv.</p>
-<p>ps: postingan ini merupakan test untuk autoblogged.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Ok, udah dicoba beberapa hal. Nyoba balik ke nginx, makan memory lebih gede, ya gak  gitu jauh sih, tapi lumayan untuk VPS gw yang lowmem, juga lumayan nambah kerjaan  buat gw yg lagi males nyeting, soalnya kudu milih cginya nih mau pake apaan. Soalnya  secara bawaan nginx gak ngedukung CGI.</p><p>Akhirnya nyoba downgrade pake  <a class="reference external" href="https://packages.debian.org/squeeze/monkey" target="_blank" rel="noopener">monyet yang ada di squeeze</a>, dan lancar jaya ;). Autoblogged bisa jalan lagi,  juga memory yg kepake cuman dikit. Huuuuraaayyy!!</p><p>Struktur folder dan file yg gw pake kek gini:</p><pre class="literal-block">/var/www/arie.malam.or.id/  |- cgi &lt;-- tempat naro Perl script buat autoblogged  |- public &lt;-- ouput dari Pelican, juga jadi document root                untuk web</pre><p>Isi Perl script yg gw pake kira2 seperti ini:</p><pre class="literal-block">#!/usr/bin/perluse Net::IP::Match::Bin;print &quot;Content-type:text/plain\n\n&quot;;my $ipm = Net::IP::Match::Bin-&gt;new();# http://goo.gl/4ZNMGs$ipm-&gt;add(['131.103.20.167', '131.103.20.165',           '131.103.20.168', '131.103.20.166',           '131.103.20.169', '131.103.20.170']);if (($ENV{'REQUEST_METHOD'} eq 'POST') &amp;&amp;    ($ipm-&gt;match_ip($ENV{'REMOTE_ADDR'}) != undef)) {    exec('/path/to/bash/script.sh');    print 'Executed!';}</pre><p>Hanya untuk menjalankan script yg sebenernya sih, yaitu si shell script, yg tugasnya  adalah check update dari blog repo (termasuk plugins, themes dan tentu aja content),  lalu menjalankan pelican di virtualenv.</p><p>ps: postingan ini merupakan test untuk autoblogged.</p>]]></content>
     
     <summary type="html">
     
@@ -582,48 +215,7 @@ virtualenv.</p>
     <published>2014-12-02T04:18:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p>Baru kemaren gw posting soal si monyet, ya.. si monyet!</p>
-<p>Dia butuh memory yang lebih kecil dibanding nginx, cuma ~1Mb. Gw
-pikir gw gak bakal butuh nginx lagi, VPS gw kan yg low memory, jadi
-keknya udah cukup pake monyet. Udah setting autoblogged juga, ya udah
-enak lah, udah ngepas.</p>
-<p>Tapi ternyata kadang ada kasus dimana si Pelican harus diset clear directory.</p>
-<pre class="literal-block">
-DELETE_OUTPUT_DIRECTORY = True
-</pre>
-<p>Ini bakal ngakibatin semua files sama semua directories bakalan
-dihapus dulu, sebelum static filenya dibuat. Dan ini termasuk file
-cgi yg gw bikin buat autoblogged.</p>
-<p>Kalo aja si monyet ini support aliasing (atau emang udah support ya?
-cuman gw aja yg belom tau), baru deh nyaman.</p>
-<p>Strukture folder gw kek gini:</p>
-<pre class="literal-block">
-/public
-  |- cgi-bin     &lt;-- tempat narok script buat autoblogged
-  |- index.html
-  |- ...
-  |- generated.file
-</pre>
-<p>Dengan option <cite>DELETE_OUTPUT_DIRECTORY</cite> maka folder cgi-bin bakalan
-ikut ke hapus, hal ini bisa kita cegah kalo aja si monyet support
-folder aliasing.</p>
-<p>Hm.. atau gw downgrade version nya aja kali ya? di versi sebelomnya
-ada tuh aliasing, kek gini:</p>
-<pre class="literal-block">
-# Server_ScriptAlias :
-# ==================================
-# If you which to have CGI support (Common Gateway Interface), you should
-# define the directory where the executive scripts will be found,for that,
-# you should define an alias directory towards the original of the
-# following form:
-#
-#       Server_ScriptAlias /name_of_alias/ original_path
-#
-
-Server_ScriptAlias /cgi-bin/ /usr/share/monkey/cgi-bin
-</pre>
-<p>Atau… gw balik lagi pake nginx?</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Baru kemaren gw posting soal si monyet, ya.. si monyet!</p><p>Dia butuh memory yang lebih kecil dibanding nginx, cuma ~1Mb. Gw pikir gw gak bakal  butuh nginx lagi, VPS gw kan yg low memory, jadi keknya udah cukup pake monyet.  Udah setting autoblogged juga, ya udah enak lah, udah ngepas.</p><p>Tapi ternyata kadang ada kasus dimana si Pelican harus diset clear directory.</p><pre class="literal-block">DELETE_OUTPUT_DIRECTORY = True</pre><p>Ini bakal ngakibatin semua files sama semua directories bakalan dihapus dulu, sebelum  static filenya dibuat. Dan ini termasuk file cgi yg gw bikin buat autoblogged.</p><p>Kalo aja si monyet ini support aliasing (atau emang udah support ya? cuman gw aja  yg belom tau), baru deh nyaman.</p><p>Strukture folder gw kek gini:</p><pre class="literal-block">/public  |- cgi-bin     &lt;-- tempat narok script buat autoblogged  |- index.html  |- ...  |- generated.file</pre><p>Dengan option  <cite>DELETE_OUTPUT_DIRECTORY</cite> maka folder cgi-bin bakalan ikut ke hapus, hal ini  bisa kita cegah kalo aja si monyet support folder aliasing.</p><p>Hm.. atau gw downgrade version nya aja kali ya? di versi sebelomnya ada tuh aliasing,  kek gini:</p><pre class="literal-block"># Server_ScriptAlias :# ==================================# If you which to have CGI support (Common Gateway Interface), you should# define the directory where the executive scripts will be found,for that,# you should define an alias directory towards the original of the# following form:##       Server_ScriptAlias /name_of_alias/ original_path#Server_ScriptAlias /cgi-bin/ /usr/share/monkey/cgi-bin</pre><p>Atau… gw balik lagi pake nginx?</p>]]></content>
     
     <summary type="html">
     
@@ -645,17 +237,7 @@ Server_ScriptAlias /cgi-bin/ /usr/share/monkey/cgi-bin
     <published>2014-12-01T12:03:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p>Setelah pindah pake Pelican, semua data kan gw ubah ke dalam bentuk
-file biasa dengan format reStructuredText. Terus kan gw ada bikin 4
-buah postingan baru (selama bulan November).</p>
-<p>Ternyata semuanya salah tahun! hehehe.. gak tau kenapa, yg harusnya
-2014 kok jadi 2015. Baru gw ubah tadi :)</p>
-<p>Gw belum biasa ternyata nulis dalam bentuk kek ginian, karena kebiasaan
-pake CRUD, yg tanggalnya itu otomatis, sampe salah isiin tanggal.</p>
-<p>Oh ya, selamat datang Desember, bentar lagi tahun baru nih, ambil cuti
-yg lama, beres2 rumah (mau pindahan akhir Desember ini), dan bersantai
-:)</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Setelah pindah pake Pelican, semua data kan gw ubah ke dalam bentuk file biasa dengan  format reStructuredText. Terus kan gw ada bikin 4 buah postingan baru (selama bulan  November).</p><p>Ternyata semuanya salah tahun! hehehe.. gak tau kenapa, yg harusnya 2014 kok jadi  2015. Baru gw ubah tadi :)</p><p>Gw belum biasa ternyata nulis dalam bentuk kek ginian, karena kebiasaan pake CRUD,  yg tanggalnya itu otomatis, sampe salah isiin tanggal.</p><p>Oh ya, selamat datang Desember, bentar lagi tahun baru nih, ambil cuti yg lama, beres2  rumah (mau pindahan akhir Desember ini), dan bersantai :)</p>]]></content>
     
     <summary type="html">
     
@@ -673,77 +255,24 @@ yg lama, beres2 rumah (mau pindahan akhir Desember ini), dan bersantai
     <published>2014-11-13T08:03:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p>Kemaren2 gw nemu sebuah PHP <cite>library</cite>. Untuk lebih memahami maksud
-dan cara kerjanya, gw baca tuh codenya. Di dalamnya terdapat beberapa
-baris code untuk memverifikasi kepemilikan codenya (ini bukan free
-<cite>library</cite>, kita harus beli baru dapat file-filenya.</p>
-<p>Di bagian inialisasi, si class ini melakukan request ke server
-pembuat code disertai data email dan transaksi id pembelian sebagai
-acuan. Jadi gak mungkin kita isi dengan sembarang data.</p>
-<p>Format URL yang diminta seperti ini:</p>
-<pre class="literal-block">
-http://server/verify?mail=email&#64;domain.tld&amp;trid=ID-TRANSAKSI
-</pre>
-<p>Sampai sini sih gak terlalu menarik. Di baris selanjutnya, hasil dari
-request tersebut diproses.</p>
-<pre class="literal-block">
-try {
-    $result = validate($url);
-    $data   = json_decode($result, TRUE);
-
-    if ($data['status'] == 'valid') {
-        // ...
-    }
-} catch (Exception $exp) {
-    // ...
-}
-</pre>
-<p>Masih normal sih, sampai gw nyoba ngirim dengan email yang ngasal
-dan transaksi id yg asal pula, hasilnya tetep aja valid.</p>
-<p>Hasil dari request tersebut kira-kira seperti ini:</p>
-<pre class="literal-block">
-{&quot;status&quot;:&quot;valid&quot;, ... }
-</pre>
-<p>Ini baru menarik, karena input seperti apapun hasilnya tetep hasilnya
-<cite>valid</cite>, <cite>library</cite> seperti ini dengan mudah dibikin
-<a class="reference external" href="http://en.wikipedia.org/wiki/Copyright_infringement" target="_blank" rel="external">NULLED</a>, kita bisa <cite>bypass code</cite> diatas, ganti aja jadi seperti
-ini:</p>
-<pre class="literal-block">
-try {
-    // $result = validate($url);
-    // $data   = json_decode($result, TRUE);
-
-    $data = array(
-        'status' =&gt; 'valid',
-        // ...
-    );
-
-    if ($data['status'] == 'valid') {
-        // ...
-    }
-} catch (Exception $exp) {
-    // ...
-}
-</pre>
-<p>Jadi gak perlu melakukan verifikasi online, langsung aja <cite>bypass</cite>,
-script kita langsung verified deh.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Kemaren2 gw nemu sebuah PHP  <cite>library</cite>. Untuk lebih memahami maksud dan cara kerjanya, gw baca tuh codenya.  Di dalamnya terdapat beberapa baris code untuk memverifikasi kepemilikan codenya  (ini bukan free  <cite>library</cite>, kita harus beli baru dapat file-filenya.</p><p>Di bagian inialisasi, si class ini melakukan request ke server pembuat code disertai  data email dan transaksi id pembelian sebagai acuan. Jadi gak mungkin kita isi  dengan sembarang data.</p><p>Format URL yang diminta seperti ini:</p><pre class="literal-block">http://server/verify?mail=email&#64;domain.tld&amp;trid=ID-TRANSAKSI</pre><p>Sampai sini sih gak terlalu menarik. Di baris selanjutnya, hasil dari request tersebut  diproses.</p><pre class="literal-block">try {    $result = validate($url);    $data   = json_decode($result, TRUE);    if ($data['status'] == 'valid') {        // ...    }} catch (Exception $exp) {    // ...}</pre><p>Masih normal sih, sampai gw nyoba ngirim dengan email yang ngasal dan transaksi id  yg asal pula, hasilnya tetep aja valid.</p><p>Hasil dari request tersebut kira-kira seperti ini:</p><pre class="literal-block">{&quot;status&quot;:&quot;valid&quot;, ... }</pre><p>Ini baru menarik, karena input seperti apapun hasilnya tetep hasilnya  <cite>valid</cite>,  <cite>library</cite> seperti ini dengan mudah dibikin  <a class="reference external" href="http://en.wikipedia.org/wiki/Copyright_infringement" target="_blank" rel="noopener">NULLED</a>, kita bisa  <cite>bypass code</cite> diatas, ganti aja jadi seperti ini:</p><pre class="literal-block">try {    // $result = validate($url);    // $data   = json_decode($result, TRUE);    $data = array(        'status' =&gt; 'valid',        // ...    );    if ($data['status'] == 'valid') {        // ...    }} catch (Exception $exp) {    // ...}</pre><p>Jadi gak perlu melakukan verifikasi online, langsung aja  <cite>bypass</cite>, script kita langsung verified deh.</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Kemaren2 gw nemu sebuah PHP &lt;cite&gt;library&lt;/cite&gt;. Untuk lebih memahami maksud
-dan cara kerjanya, gw baca tuh codenya. Di dalamnya terdapat beberapa
-baris code untuk memverifikasi kepemilikan codenya (ini bukan free
-&lt;cite&gt;library&lt;/cite&gt;, kita harus beli baru dapat file-filenya.&lt;/p&gt;
-&lt;p&gt;Di bagian inialisasi, si class ini melakukan request ke server
-pembuat code disertai data email dan transaksi id pembelian sebagai
-acuan. Jadi gak mungkin kita isi dengan sembarang data.&lt;/p&gt;
+      &lt;p&gt;Kemaren2 gw nemu sebuah PHP
+  &lt;cite&gt;library&lt;/cite&gt;. Untuk lebih memahami maksud dan cara kerjanya, gw baca tuh codenya.
+  Di dalamnya terdapat beberapa baris code untuk memverifikasi kepemilikan codenya
+  (ini bukan free
+  &lt;cite&gt;library&lt;/cite&gt;, kita harus beli baru dapat file-filenya.&lt;/p&gt;
+&lt;p&gt;Di bagian inialisasi, si class ini melakukan request ke server pembuat code disertai
+  data email dan transaksi id pembelian sebagai acuan. Jadi gak mungkin kita isi
+  dengan sembarang data.&lt;/p&gt;
 &lt;p&gt;Format URL yang diminta seperti ini:&lt;/p&gt;
 &lt;pre class=&quot;literal-block&quot;&gt;
 http://server/verify?mail=email&amp;#64;domain.tld&amp;amp;trid=ID-TRANSAKSI
 &lt;/pre&gt;
-&lt;p&gt;Sampai sini sih gak terlalu menarik. Di baris selanjutnya, hasil dari
-request tersebut diproses.&lt;/p&gt;
+&lt;p&gt;Sampai sini sih gak terlalu menarik. Di baris selanjutnya, hasil dari request tersebut
+  diproses.&lt;/p&gt;
 &lt;pre class=&quot;literal-block&quot;&gt;
 try {
     $result = validate($url);
@@ -756,16 +285,18 @@ try {
     // ...
 }
 &lt;/pre&gt;
-&lt;p&gt;Masih normal sih, sampai gw nyoba ngirim dengan email yang ngasal
-dan transaksi id yg asal pula, hasilnya tetep aja valid.&lt;/p&gt;
+&lt;p&gt;Masih normal sih, sampai gw nyoba ngirim dengan email yang ngasal dan transaksi id
+  yg asal pula, hasilnya tetep aja valid.&lt;/p&gt;
 &lt;p&gt;Hasil dari request tersebut kira-kira seperti ini:&lt;/p&gt;
 &lt;pre class=&quot;literal-block&quot;&gt;
 {&amp;quot;status&amp;quot;:&amp;quot;valid&amp;quot;, ... }
 &lt;/pre&gt;
 &lt;p&gt;Ini baru menarik, karena input seperti apapun hasilnya tetep hasilnya
-&lt;cite&gt;valid&lt;/cite&gt;, &lt;cite&gt;library&lt;/cite&gt; seperti ini dengan mudah dibikin
-&lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Copyright_infringement&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NULLED&lt;/a&gt;, kita bisa &lt;cite&gt;bypass code&lt;/cite&gt; diatas, ganti aja jadi seperti
-ini:&lt;/p&gt;
+  &lt;cite&gt;valid&lt;/cite&gt;,
+  &lt;cite&gt;library&lt;/cite&gt; seperti ini dengan mudah dibikin
+  &lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Copyright_infringement&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;NULLED&lt;/a&gt;, kita bisa
+  &lt;cite&gt;bypass code&lt;/cite&gt; diatas, ganti aja jadi seperti ini:
+&lt;/p&gt;
     
     </summary>
     
@@ -781,68 +312,42 @@ ini:&lt;/p&gt;
     <published>2014-11-11T18:29:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p>Beberapa hari ini, gw lagi mikirin gimana caranya supaya VPS gw, yg
-memorynya cuman 256M bisa punya memory tambahan. Selama ini gw pake
-<a class="reference external" href="http://nginx.org" target="_blank" rel="external">nginx</a>, dan karena VPS gw memorynya rada terbatas, gw install dengan</p>
-<blockquote>
-$ sudo apt-get install nginx-light</blockquote>
-<p>Belum yakin sih, <tt class="docutils literal"><span class="pre">nginx-light</span></tt> ini nginx yg lebih ringan atau gak,
-jika dibandingin sama <tt class="docutils literal">nginx</tt> atau bahkan <tt class="docutils literal"><span class="pre">nginx-extra</span></tt> atau
-<tt class="docutils literal"><span class="pre">nginx-full</span></tt>, gak ngerti juga. Mungkin karena lebih ringan, jadinya
-pake nama light, haha sok tau nih.</p>
-<p>Nah, si nginx ini emang make memory kecil, jadi masih bisa lah untuk
-handle web, soalnya juga pengunjung blog ini cuman web spider aja :)</p>
-<p>Cuman karena gw juga ada aplikasi yang jalan dibelakang (background),
-yang juga butuh <a class="reference external" href="http://mysql.com" target="_blank" rel="external">MySQL</a> jadi mesti mikir2 lagi. MySQL udah gw setting
-pake setingan sederhana sih, cuman aktifin MyISAM aja, InnoDB udah
-gw disable, tapi teteepppp makan memory.</p>
-<p>Juga karena web ini cuman buat serve static HTML, gw jadi mikir2
-untuk mengganti dengan yg lebih <cite>light</cite> lagi, nyari2 di uum gugel,
-akhirnya nemuin <a class="reference external" href="http://monkey-project.com" target="_blank" rel="external">monyet</a>.</p>
-<p>Gw gak (atau belum) nemuin paket debiannya, jadi masih install
-manual.</p>
-<p>Begitu nyala, memory yg dipake cuman 500~650KiB, gak sampe 1MiB, kalo
-nginx masih bisa sampe 1.2MiB.</p>
-<p>Yahhh lumayan ah, tapi gw belom berani buat jadiin si monyet ini
-sebagai web server utama di web yang banyak trafficnya.</p>
-<p>Masih ujicoba :)</p>
-<p><strong>UPDATE</strong> <em>(2014-11-12 13:41)</em></p>
-<p>Ternyata sampe 1MiB juga tuh, catatannya ini bukan web yang sibuk, jadi
-pengen tau gmn kalo di web sibuk ya.</p>
-<pre class="literal-block">
-root&#64;arie:~# ./ps_mem.py | awk '/monkey|Program/'
- Private  +   Shared  =  RAM used   Program
-840.0 KiB + 186.0 KiB =   1.0 MiB   monkey: server
-</pre>
-<p>Tambahannya, si monyet blom support redirect per URL keknya, atau gw yg blom tau gmn setingannya. Karena dulunya pake <a class="reference external" href="http://kohanaframework.org" target="_blank" rel="external">Kohana</a>, ada banyak URL yang pengen gw redirect ke URL baru.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Beberapa hari ini, gw lagi mikirin gimana caranya supaya VPS gw, yg memorynya cuman  256M bisa punya memory tambahan. Selama ini gw pake  <a class="reference external" href="http://nginx.org" target="_blank" rel="noopener">nginx</a>, dan karena VPS gw memorynya rada terbatas, gw install dengan</p><blockquote>  $ sudo apt-get install nginx-light</blockquote><p>Belum yakin sih,  <tt class="docutils literal">    <span class="pre">nginx-light</span>  </tt> ini nginx yg lebih ringan atau gak, jika dibandingin sama  <tt class="docutils literal">nginx</tt> atau bahkan  <tt class="docutils literal">    <span class="pre">nginx-extra</span>  </tt> atau  <tt class="docutils literal">    <span class="pre">nginx-full</span>  </tt>, gak ngerti juga. Mungkin karena lebih ringan, jadinya pake nama light, haha sok  tau nih.</p><p>Nah, si nginx ini emang make memory kecil, jadi masih bisa lah untuk handle web,  soalnya juga pengunjung blog ini cuman web spider aja :)</p><p>Cuman karena gw juga ada aplikasi yang jalan dibelakang (background), yang juga butuh  <a class="reference external" href="http://mysql.com" target="_blank" rel="noopener">MySQL</a> jadi mesti mikir2 lagi. MySQL udah gw setting pake setingan sederhana  sih, cuman aktifin MyISAM aja, InnoDB udah gw disable, tapi teteepppp makan memory.</p><p>Juga karena web ini cuman buat serve static HTML, gw jadi mikir2 untuk mengganti  dengan yg lebih  <cite>light</cite> lagi, nyari2 di uum gugel, akhirnya nemuin  <a class="reference external" href="http://monkey-project.com" target="_blank" rel="noopener">monyet</a>.</p><p>Gw gak (atau belum) nemuin paket debiannya, jadi masih install manual.</p><p>Begitu nyala, memory yg dipake cuman 500~650KiB, gak sampe 1MiB, kalo nginx masih  bisa sampe 1.2MiB.</p><p>Yahhh lumayan ah, tapi gw belom berani buat jadiin si monyet ini sebagai web server  utama di web yang banyak trafficnya.</p><p>Masih ujicoba :)</p><p>  <strong>UPDATE</strong>  <em>(2014-11-12 13:41)</em></p><p>Ternyata sampe 1MiB juga tuh, catatannya ini bukan web yang sibuk, jadi pengen tau  gmn kalo di web sibuk ya.</p><pre class="literal-block">root&#64;arie:~# ./ps_mem.py | awk '/monkey|Program/' Private  +   Shared  =  RAM used   Program840.0 KiB + 186.0 KiB =   1.0 MiB   monkey: server</pre><p>Tambahannya, si monyet blom support redirect per URL keknya, atau gw yg blom tau  gmn setingannya. Karena dulunya pake  <a class="reference external" href="http://kohanaframework.org" target="_blank" rel="noopener">Kohana</a>, ada banyak URL yang pengen gw redirect ke URL baru.</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Beberapa hari ini, gw lagi mikirin gimana caranya supaya VPS gw, yg
-memorynya cuman 256M bisa punya memory tambahan. Selama ini gw pake
-&lt;a class=&quot;reference external&quot; href=&quot;http://nginx.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nginx&lt;/a&gt;, dan karena VPS gw memorynya rada terbatas, gw install dengan&lt;/p&gt;
+      &lt;p&gt;Beberapa hari ini, gw lagi mikirin gimana caranya supaya VPS gw, yg memorynya cuman
+  256M bisa punya memory tambahan. Selama ini gw pake
+  &lt;a class=&quot;reference external&quot; href=&quot;http://nginx.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;nginx&lt;/a&gt;, dan karena VPS gw memorynya rada terbatas, gw install dengan&lt;/p&gt;
 &lt;blockquote&gt;
-$ sudo apt-get install nginx-light&lt;/blockquote&gt;
-&lt;p&gt;Belum yakin sih, &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;nginx-light&lt;/span&gt;&lt;/tt&gt; ini nginx yg lebih ringan atau gak,
-jika dibandingin sama &lt;tt class=&quot;docutils literal&quot;&gt;nginx&lt;/tt&gt; atau bahkan &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;nginx-extra&lt;/span&gt;&lt;/tt&gt; atau
-&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;nginx-full&lt;/span&gt;&lt;/tt&gt;, gak ngerti juga. Mungkin karena lebih ringan, jadinya
-pake nama light, haha sok tau nih.&lt;/p&gt;
-&lt;p&gt;Nah, si nginx ini emang make memory kecil, jadi masih bisa lah untuk
-handle web, soalnya juga pengunjung blog ini cuman web spider aja :)&lt;/p&gt;
-&lt;p&gt;Cuman karena gw juga ada aplikasi yang jalan dibelakang (background),
-yang juga butuh &lt;a class=&quot;reference external&quot; href=&quot;http://mysql.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MySQL&lt;/a&gt; jadi mesti mikir2 lagi. MySQL udah gw setting
-pake setingan sederhana sih, cuman aktifin MyISAM aja, InnoDB udah
-gw disable, tapi teteepppp makan memory.&lt;/p&gt;
-&lt;p&gt;Juga karena web ini cuman buat serve static HTML, gw jadi mikir2
-untuk mengganti dengan yg lebih &lt;cite&gt;light&lt;/cite&gt; lagi, nyari2 di uum gugel,
-akhirnya nemuin &lt;a class=&quot;reference external&quot; href=&quot;http://monkey-project.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;monyet&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Gw gak (atau belum) nemuin paket debiannya, jadi masih install
-manual.&lt;/p&gt;
-&lt;p&gt;Begitu nyala, memory yg dipake cuman 500~650KiB, gak sampe 1MiB, kalo
-nginx masih bisa sampe 1.2MiB.&lt;/p&gt;
-&lt;p&gt;Yahhh lumayan ah, tapi gw belom berani buat jadiin si monyet ini
-sebagai web server utama di web yang banyak trafficnya.&lt;/p&gt;
+  $ sudo apt-get install nginx-light&lt;/blockquote&gt;
+&lt;p&gt;Belum yakin sih,
+  &lt;tt class=&quot;docutils literal&quot;&gt;
+    &lt;span class=&quot;pre&quot;&gt;nginx-light&lt;/span&gt;
+  &lt;/tt&gt; ini nginx yg lebih ringan atau gak, jika dibandingin sama
+  &lt;tt class=&quot;docutils literal&quot;&gt;nginx&lt;/tt&gt; atau bahkan
+  &lt;tt class=&quot;docutils literal&quot;&gt;
+    &lt;span class=&quot;pre&quot;&gt;nginx-extra&lt;/span&gt;
+  &lt;/tt&gt; atau
+  &lt;tt class=&quot;docutils literal&quot;&gt;
+    &lt;span class=&quot;pre&quot;&gt;nginx-full&lt;/span&gt;
+  &lt;/tt&gt;, gak ngerti juga. Mungkin karena lebih ringan, jadinya pake nama light, haha sok
+  tau nih.&lt;/p&gt;
+&lt;p&gt;Nah, si nginx ini emang make memory kecil, jadi masih bisa lah untuk handle web,
+  soalnya juga pengunjung blog ini cuman web spider aja :)&lt;/p&gt;
+&lt;p&gt;Cuman karena gw juga ada aplikasi yang jalan dibelakang (background), yang juga butuh
+  &lt;a class=&quot;reference external&quot; href=&quot;http://mysql.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MySQL&lt;/a&gt; jadi mesti mikir2 lagi. MySQL udah gw setting pake setingan sederhana
+  sih, cuman aktifin MyISAM aja, InnoDB udah gw disable, tapi teteepppp makan memory.&lt;/p&gt;
+&lt;p&gt;Juga karena web ini cuman buat serve static HTML, gw jadi mikir2 untuk mengganti
+  dengan yg lebih
+  &lt;cite&gt;light&lt;/cite&gt; lagi, nyari2 di uum gugel, akhirnya nemuin
+  &lt;a class=&quot;reference external&quot; href=&quot;http://monkey-project.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;monyet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Gw gak (atau belum) nemuin paket debiannya, jadi masih install manual.
+&lt;/p&gt;
+&lt;p&gt;Begitu nyala, memory yg dipake cuman 500~650KiB, gak sampe 1MiB, kalo nginx masih
+  bisa sampe 1.2MiB.&lt;/p&gt;
+&lt;p&gt;Yahhh lumayan ah, tapi gw belom berani buat jadiin si monyet ini sebagai web server
+  utama di web yang banyak trafficnya.&lt;/p&gt;
 &lt;p&gt;Masih ujicoba :)&lt;/p&gt;
     
     </summary>
@@ -861,11 +366,7 @@ sebagai web server utama di web yang banyak trafficnya.&lt;/p&gt;
     <published>2014-11-11T14:33:00.000Z</published>
     <updated>2017-05-20T09:20:43.435Z</updated>
     
-    <content type="html"><![CDATA[<p>Setelah seting sana-sini di VPS, akhirnya gw pasang git hook. Sederhananya
-ketika kita push content baru, atau edit, ke repositori (gw pake Bitbucket),
-bakalan ngetrigger hook yang ditentukan.</p>
-<p>Postingan ini merupakann test, apakah hook tersebut berhasil atau tidak.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Setelah seting sana-sini di VPS, akhirnya gw pasang git hook. Sederhananya ketika  kita push content baru, atau edit, ke repositori (gw pake Bitbucket), bakalan ngetrigger  hook yang ditentukan.</p><p>Postingan ini merupakann test, apakah hook tersebut berhasil atau tidak.</p>]]></content>
     
     <summary type="html">
     
@@ -889,23 +390,7 @@ bakalan ngetrigger hook yang ditentukan.</p>
     <published>2014-11-06T19:17:00.000Z</published>
     <updated>2017-05-20T09:20:43.431Z</updated>
     
-    <content type="html"><![CDATA[<p>Oh hai!! udah sangat-sangat lama gak pernah ngisi blog lagi. Buat para pembaca,
-yang kebanyakan adalah robot :D, maapin yaa.. lo-lo semua suka, dan banyak
-nemuin error 404. Berarti ntar gw kudu re-link untuk tiap-tiap postingan.
-Tunggu aja deh tanggal mainnya.</p>
-<p>Sabar ya Google Webmaster, gpp sekarang lo report-report banyak error di web ini,
-tapi ntar ga ada lagi kok <em>ngareeeppp</em>.</p>
-<p>Banyak alesannya kenapa jadi jarang nulis, dan keknya gak perlu ditulis juga sih
-di sini :)</p>
-<p>Jadi, kenapa pindah ke static HTML? yahh karena salah satunya udah jarang banget
-update, dan kemungkinan kedepannya juga gitu, terus gw sekarang cuman punya Low
-VPS, pastinya RAM jadi makin minim. Yahhh karena udah jarang banget update,
-daripada dipake buat mysql+php+nginx, kenapa ga jadi nginx+html aja?</p>
-<p>Lalu dipilihlah Pelican, lumayan sederhana sih, gampang pula installnya.</p>
-<p>Okeyy, gak banyak cerita yg bakal ditulis hari ini, thanks dah balik lagi ke
-sini, meski cuman ngeindex halaman ini aja.</p>
-<p>Sampe ketemu di postingan selanjutnya ^^</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Oh hai!! udah sangat-sangat lama gak pernah ngisi blog lagi. Buat para pembaca, yang  kebanyakan adalah robot :D, maapin yaa.. lo-lo semua suka, dan banyak nemuin error  404. Berarti ntar gw kudu re-link untuk tiap-tiap postingan. Tunggu aja deh tanggal  mainnya.</p><p>Sabar ya Google Webmaster, gpp sekarang lo report-report banyak error di web ini,  tapi ntar ga ada lagi kok  <em>ngareeeppp</em>.</p><p>Banyak alesannya kenapa jadi jarang nulis, dan keknya gak perlu ditulis juga sih  di sini :)</p><p>Jadi, kenapa pindah ke static HTML? yahh karena salah satunya udah jarang banget  update, dan kemungkinan kedepannya juga gitu, terus gw sekarang cuman punya Low  VPS, pastinya RAM jadi makin minim. Yahhh karena udah jarang banget update, daripada  dipake buat mysql+php+nginx, kenapa ga jadi nginx+html aja?</p><p>Lalu dipilihlah Pelican, lumayan sederhana sih, gampang pula installnya.</p><p>Okeyy, gak banyak cerita yg bakal ditulis hari ini, thanks dah balik lagi ke sini,  meski cuman ngeindex halaman ini aja.</p><p>Sampe ketemu di postingan selanjutnya ^^</p>]]></content>
     
     <summary type="html">
     
@@ -927,19 +412,7 @@ sini, meski cuman ngeindex halaman ini aja.</p>
     <published>2013-04-25T06:23:00.000Z</published>
     <updated>2017-05-20T09:20:43.419Z</updated>
     
-    <content type="html"><![CDATA[<p>Yep! sekarang blog inih pake format markdown lagi :)</p>
-<p>Sebelumnya pake markdown juga, cumann.. pas lagi ngoprek-ngoprek dan
-nemu <a class="reference external" href="http://redactorjs.com" target="_blank" rel="external">redactor</a> gw reformat lagi ke dalam
-bentuk HTML.</p>
-<p>Makanya banyak postingan lama yang ada (banyak!) keterangan diupdate.</p>
-<p>Setelah direformat lagi kedalam markdown, semua postingan jadi-terupdate
-:D</p>
-<p>Hahaha, dan postingan ini gw tulis manual dari mysql client, dengan
-peritntah: <tt class="docutils literal">INSERT ...</tt>.</p>
-<p>Selain pake markdown lagih, juga ada pergantian pemain dari MySQL
-menjadi <a class="reference external" href="https://mariadb.org/" target="_blank" rel="external">MariaDB</a>.</p>
-<p>Babay MySQL, tengkiew yah udah nemenin gw :)</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Yep! sekarang blog inih pake format markdown lagi :)</p><p>Sebelumnya pake markdown juga, cumann.. pas lagi ngoprek-ngoprek dan nemu  <a class="reference external" href="http://redactorjs.com" target="_blank" rel="noopener">redactor</a> gw reformat lagi ke dalam bentuk HTML.</p><p>Makanya banyak postingan lama yang ada (banyak!) keterangan diupdate.</p><p>Setelah direformat lagi kedalam markdown, semua postingan jadi-terupdate :D</p><p>Hahaha, dan postingan ini gw tulis manual dari mysql client, dengan peritntah:  <tt class="docutils literal">INSERT ...</tt>.</p><p>Selain pake markdown lagih, juga ada pergantian pemain dari MySQL menjadi  <a class="reference external" href="https://mariadb.org/" target="_blank" rel="noopener">MariaDB</a>.</p><p>Babay MySQL, tengkiew yah udah nemenin gw :)</p>]]></content>
     
     <summary type="html">
     
@@ -957,9 +430,7 @@ menjadi <a class="reference external" href="https://mariadb.org/" target="_blank
     <published>2013-04-01T09:10:00.000Z</published>
     <updated>2017-05-20T09:20:43.419Z</updated>
     
-    <content type="html"><![CDATA[<p>Akhirnya, meski dengan males-malesan, update si <a class="reference external" href="https://github.com/ariews/malam-menu" target="_blank" rel="external">module
-menu</a>&nbsp;beres juga :)</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Akhirnya, meski dengan males-malesan, update si  <a class="reference external" href="https://github.com/ariews/malam-menu" target="_blank" rel="noopener">module menu  </a>&nbsp;beres juga :)</p>]]></content>
     
     <summary type="html">
     
@@ -981,13 +452,7 @@ menu</a>&nbsp;beres juga :)</p>
     <published>2013-03-18T08:58:00.000Z</published>
     <updated>2017-05-20T09:20:43.415Z</updated>
     
-    <content type="html"><![CDATA[<p>Setelah sekian lama berbengong-bengong dengan banyak artikel tentang
-<a class="reference external" href="https://www.varnish-cache.org/" target="_blank" rel="external">varnish</a>.</p>
-<p>Hasilnya masih gak terlalu jauh sih dengan
-<a class="reference external" href="http://nginx.org/" target="_blank" rel="external">NginX</a>+<a class="reference external" href="http://php-fpm.org/" target="_blank" rel="external">PHP-FPM</a>,
-mungkin karena ukuran webyang masih kecil kali ya, jadi gak terlalu
-signifikan.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Setelah sekian lama berbengong-bengong dengan banyak artikel tentang  <a class="reference external" href="https://www.varnish-cache.org/" target="_blank" rel="noopener">varnish</a>.</p><p>Hasilnya masih gak terlalu jauh sih dengan  <a class="reference external" href="http://nginx.org/" target="_blank" rel="noopener">NginX</a>+  <a class="reference external" href="http://php-fpm.org/" target="_blank" rel="noopener">PHP-FPM</a>, mungkin karena ukuran webyang masih kecil kali ya, jadi gak terlalu  signifikan.</p>]]></content>
     
     <summary type="html">
     
@@ -1011,13 +476,7 @@ signifikan.</p>
     <published>2013-03-13T16:10:00.000Z</published>
     <updated>2017-05-20T09:20:43.415Z</updated>
     
-    <content type="html"><![CDATA[<p>Setelah tapa sekian taun, keknya code-code yang ada di blog gw mesti gw
-pindahin ke <a class="reference external" href="https://gist.github.com/ariews" target="_blank" rel="external">gist</a>.</p>
-<p>kenapa gist? gak tau :D</p>
-<p>Yah cuman mau kasih tau doang, kalo sekarang (belum semua) gw lagi
-mindahin itu semua ke gist – err, sebenernya sih cuman mau
-menuh-menuhin blog aja :D</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Setelah tapa sekian taun, keknya code-code yang ada di blog gw mesti gw pindahin  ke  <a class="reference external" href="https://gist.github.com/ariews" target="_blank" rel="noopener">gist</a>.</p><p>kenapa gist? gak tau :D</p><p>Yah cuman mau kasih tau doang, kalo sekarang (belum semua) gw lagi mindahin itu semua  ke gist – err, sebenernya sih cuman mau menuh-menuhin blog aja :D</p>]]></content>
     
     <summary type="html">
     
@@ -1037,24 +496,7 @@ menuh-menuhin blog aja :D</p>
     <published>2013-03-13T13:26:00.000Z</published>
     <updated>2017-05-20T09:20:43.415Z</updated>
     
-    <content type="html"><![CDATA[<p>Baru sekarang gw pake plugin
-<a class="reference external" href="http://www.n7studios.co.uk/2010/03/01/ckeditor-word-count-plugin/" target="_blank" rel="external">wordcount</a>
-buat <a class="reference external" href="http://ckeditor.com/" target="_blank" rel="external">CKeditor</a>, si plugin ini digunakan buat
-ngitung jumlah kata yang ditulis pada <tt class="docutils literal">textarea</tt>, hanya saja pada
-kondisi-kondisi tertentu, si plugin gak bekerja semestinya.</p>
-<p>Dari code si plugin:</p>
-<p>dia hanya akan membuat sebuah HTML string menjadi text biasa, dan
-di-split berdasarkan spasi. Tab, dan garis baru tidak akan dihitung.</p>
-<p>Nah, gw coba-coba benerin code tersebut, menjadi seperti ini:</p>
-<p>Pertama-tama, gw akan coba ngeganti semua tab, garis baru dan spasi
-menjadi spasi tunggal, lalu hilangkan HTML tag-nya dengan menggunakan
-fungsi <a class="reference external" href="http://api.jquery.com/text/" target="_blank" rel="external">.text()</a>, ternyata masih
-menghasilkan beberapa spasi kosong, makanya gw perlu untuk –sekali
-lagi– mengganti menjadi spasi tunggal.</p>
-<p>Lalu gw split berdasarkan spasi, dan gw hitung jumlahnya. Jadi dehh!!</p>
-<p>Haha, gw tau, itu kode yang buruk! tapi berfungsi seperti apa yg gw
-harapkan.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>Baru sekarang gw pake plugin  <a class="reference external" href="http://www.n7studios.co.uk/2010/03/01/ckeditor-word-count-plugin/" target="_blank" rel="noopener">wordcount</a>  buat  <a class="reference external" href="http://ckeditor.com/" target="_blank" rel="noopener">CKeditor</a>, si plugin ini digunakan buat ngitung jumlah kata yang ditulis pada  <tt class="docutils literal">textarea</tt>, hanya saja pada kondisi-kondisi tertentu, si plugin gak bekerja  semestinya.</p><p>Dari code si plugin:</p><p>dia hanya akan membuat sebuah HTML string menjadi text biasa, dan di-split berdasarkan  spasi. Tab, dan garis baru tidak akan dihitung.</p><p>Nah, gw coba-coba benerin code tersebut, menjadi seperti ini:</p><p>Pertama-tama, gw akan coba ngeganti semua tab, garis baru dan spasi menjadi spasi  tunggal, lalu hilangkan HTML tag-nya dengan menggunakan fungsi  <a class="reference external" href="http://api.jquery.com/text/" target="_blank" rel="noopener">.text()</a>, ternyata masih menghasilkan beberapa spasi kosong, makanya gw perlu  untuk –sekali lagi– mengganti menjadi spasi tunggal.</p><p>Lalu gw split berdasarkan spasi, dan gw hitung jumlahnya. Jadi dehh!!</p><p>Haha, gw tau, itu kode yang buruk! tapi berfungsi seperti apa yg gw harapkan.</p>]]></content>
     
     <summary type="html">
     
